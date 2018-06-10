@@ -76,7 +76,7 @@ function panel1content() {
           <a href="https://whoswho-rockart.github.io"
         class="text-muted">
         whoswho-rockart.github.io</a><br>
-          <a href="https://whoswhorockart.wordpress.com/"
+          <a href="https://whoswhorockart.wordpress.com/about/"
         class="text-muted">
         whoswhorockart.wordpress.com</a>
       </p>
