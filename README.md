@@ -1,4 +1,3 @@
-
 # Who’s Who in Rock-art (wwr)
 
 the changing world of rock-art studies  
@@ -45,9 +44,9 @@ and WordPress.
 [`www.facebook.com/whos.who.rock.art`](https://www.facebook.com/whos.who.rock.art/)  
 [`twitter.com/whoswho_rockart`](https://twitter.com/whoswho_rockart/)  
 [`www.linkedin.com/in/whoswho-rockart-b497ba155`](https://www.linkedin.com/in/whoswho-rockart-b497ba155/)  
-[`github.com/whoswho-rockart/wwr3`](https://github.com/WhosWho-Rockart/wwr3)  
+[`github.com/whoswho-rockart/wwr3`](https://github.com/whoswho-rockart/wwr3)  
 [`whoswho-rockart.github.io`](https://whoswho-rockart.github.io)  
-[`whoswhorockart.wordpress.com`](https://whoswhorockart.wordpress.com/)
+[`whoswhorockart.wordpress.com`](https://whoswhorockart.wordpress.com/about/)
 
 The printed version will be available through CCSP and Amazon
 for €10 (plus shipping) or €7 at the congress. People with
@@ -74,8 +73,9 @@ send them to [`whoswho.rockart (at) gmail.com`](mailto:whoswho.rockart).
 
 ## wwr3 templates
 
-[`main questionaire`](main.yml)  
+[`main questionaire`](main.yaml)  
 [`book`](book.yml)  
-[`book-section`](book-section.yml)  
-[`journal article`](journal-article.yml)  
-[`conference paper`](conference-paper.yml)  
+[`book-section`](book-section.yaml)  
+[`journal article`](journal-article.yaml)  
+[`conference paper`](conference-paper.yaml)  
+
