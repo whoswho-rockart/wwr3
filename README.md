@@ -74,8 +74,8 @@ send them to [`whoswho.rockart (at) gmail.com`](mailto:whoswho.rockart).
 
 ## wwr3 templates
 
-[`main questionaire`](main.yaml)  
-[`book`](book.yaml)  
-[`book-section`](book-section.yaml)  
-[`journal article`](journal-article.yaml)  
-[`conference paper`](conference-paper.yaml)  
+[`main questionaire`](main.yml)  
+[`book`](book.yml)  
+[`book-section`](book-section.yml)  
+[`journal article`](journal-article.yml)  
+[`conference paper`](conference-paper.yml)  
