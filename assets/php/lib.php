@@ -362,7 +362,7 @@ function footer($accesses) {
 <footer id="footer" class="footer">
   <small id="footer-a" class="pull-right text-muted">'.$accesses.'</small>
   <small>
-    <a href="https://github.com/Project4Dimensions" class="text-muted">Project4Dimensions</a>
+    <a href="https://github.com/whoswho-rockart/" class="text-muted">Who’s Who in Rock-art</a>
   </small>
 </footer>
 <p> </p>';

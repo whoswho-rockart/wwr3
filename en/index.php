@@ -70,15 +70,15 @@ function panel1content() {
           <a href="https://www.linkedin.com/in/whoswho-rockart-b497ba155/"
         class="text-muted">
         www.linkedin.com/in/whoswho-rockart-b497ba155</a><br>
-          <a href="https://github.com/WhosWho-Rockart/wwr3"
+          <a href="https://github.com/whoswho-rockart/wwr3/"
         class="text-muted">
         github.com/whoswho-rockart/wwr3</a><br>
-          <a href="https://whoswho-rockart.github.io"
+          <a href="https://whoswho-rockart.github.io/wwr3/"
         class="text-muted">
-        whoswho-rockart.github.io</a><br>
+        whoswho-rockart.github.io/wwr3</a><br>
           <a href="https://whoswhorockart.wordpress.com/about/"
         class="text-muted">
-        whoswhorockart.wordpress.com</a>
+        whoswhorockart.wordpress.com/about</a>
       </p>
       <p>
         The printed version will be available through CCSP and Amazon

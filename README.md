@@ -44,9 +44,9 @@ and WordPress.
 [`www.facebook.com/whos.who.rock.art`](https://www.facebook.com/whos.who.rock.art/)  
 [`twitter.com/whoswho_rockart`](https://twitter.com/whoswho_rockart/)  
 [`www.linkedin.com/in/whoswho-rockart-b497ba155`](https://www.linkedin.com/in/whoswho-rockart-b497ba155/)  
-[`github.com/whoswho-rockart/wwr3`](https://github.com/whoswho-rockart/wwr3/)  
-[`whoswho-rockart.github.io`](https://whoswho-rockart.github.io/wwr3/)  
-[`whoswhorockart.wordpress.com`](https://whoswhorockart.wordpress.com/about/)
+[`github.com/whoswho-rockart/wwr3`](https://github.com/whoswho-rockart/wwr3)  
+[`whoswho-rockart.github.io/wwr3`](https://whoswho-rockart.github.io/wwr3/)  
+[`whoswhorockart.wordpress.com/about`](https://whoswhorockart.wordpress.com/about/)
 
 The printed version will be available through CCSP and Amazon
 for €10 (plus shipping) or €7 at the congress. People with
