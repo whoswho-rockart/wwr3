@@ -12,11 +12,11 @@ Ariela Fradkin Anati, who edited the previous two, celebrates
 the founding of CCSP in 1964.
 
 CCSP will present the third edition of “Who’s who in rock-art”
-(wwr3) at its 2018 congress, “On the Shoulders of Giants”
-(31 August to 2 September, Boario Terme, Valcamonica, Italy),
-which commemorates fifty years since the first Valcamonica
-Symposium and thirty years of the Cooperativa Archeologica
-«Le Orme dell’Uomo».
+(wwr3) at the 2018 international rock art congress, “On the
+Shoulders of Giants” (31 August to 2 September, Boario Terme,
+Valcamonica, Italy), which commemorates fifty years since the
+first Valcamonica Symposium and thirty years of the Cooperativa
+Archeologica «Le Orme dell’Uomo».
 
 There were 285 researchers in the 1995 edition and 305 in that
 of 1996. Since then, some colleagues are no longer with us.

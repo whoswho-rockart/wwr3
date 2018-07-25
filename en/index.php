@@ -27,12 +27,11 @@ function panel1content() {
       </p>
       <p>
         CCSP will present the third edition of “Who’s who in rock-art”
-        (wwr3) at the 2018 IFRAO congress, “On the Shoulders of Giants”
-        (31 August to 2 September, Boario Terme, Valcamonica, Italy),
-        which commemorates fifty years since the first Valcamonica
-        Symposium and thirty years of the Cooperativa Archeologica
-        «Le Orme dell’Uomo» and the International Federation of Rock
-        Art Organizations (IFRAO).
+        (wwr3) at the 2018 international rock art congress, “On the
+        Shoulders of Giants” (31 August to 2 September, Boario Terme,
+        Valcamonica, Italy), which commemorates fifty years since the
+        first Valcamonica Symposium and thirty years of the Cooperativa
+        Archeologica «Le Orme dell’Uomo».
       </p>
       <p>
         There were 285 researchers in the 1995 edition and 305 in that
