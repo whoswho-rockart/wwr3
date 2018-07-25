@@ -19,43 +19,38 @@ echo $top.$navbar.$imagetop.$texttop.$panel1.$panel2.footer('accesses').bottom()
 function panel1content() {
   return '
       <p>
-        The Centro Camuno di Studi Preistorici (CCSP) published the
-        first edition of “Who’s Who in Rock Art” in 1985 followed by
-        another in 1996. A third edition now underway, dedicated to
-        Ariela Fradkin Anati, who edited the previous two, celebrates
-        the founding of CCSP in 1964.
+        The Centro Camuno di Studi Preistorici (CCSP) published the first
+        edition of “Who’s Who in Rock Art” in 1985 followed by another in 1996.
+        Ariela Fradkin Anati edited both of these. A third edition dedicated to
+        Ariela celebrates the founding of CCSP in 1964.
       </p>
       <p>
-        CCSP will present the third edition of “Who’s who in rock-art”
-        (wwr3) at the 2018 international rock art congress, “On the
-        Shoulders of Giants” (31 August to 2 September, Boario Terme,
-        Valcamonica, Italy), which commemorates fifty years since the
-        first Valcamonica Symposium and thirty years of the Cooperativa
-        Archeologica «Le Orme dell’Uomo».
+        CCSP will present the third edition of “Who’s who in rock-art” (wwr3)
+        at the international rock art congress “On the Shoulders of Giants”
+        (31 August to 2 September 2018, Boario Terme, Valcamonica, Italy). The
+        congress marks fifty years since the first Valcamonica Symposium and
+        thirty years of the Cooperativa Archeologica «Le Orme dell’Uomo».
       </p>
       <p>
-        There were 285 researchers in the 1995 edition and 305 in that
-        of 1996. Since then, some colleagues are no longer with us.
-        Even so, our number grew and today there are over a thousand
-        people finding, working on and publishing rock-art. As in
-        previous issues, the idea is to foster cooperation between
-        rock-art colleagues around the world.
+        There were 285 researchers in the 1995 edition and 305 in that of 1996.
+        Since then, some colleagues are no longer with us. Even so, our number
+        grew. Today there are over a thousand people finding, working on and
+        publishing rock-art. As in previous issues, the idea is to foster
+        networking between people interested in rock art.
       </p>
       <p>
         Entries will note research areas and interests, chronology, and
-        bibliography. There will be a web app, which can be downloaded
-        and accessed offline. The same information will appear in print,
-        but the bibliography limited to five publications per person.
+        bibliography. There will be a web app designed offline access. The same
+        information will appear in print with a bibliography limited to five per
+        person.
       </p>
       <p>
-        Any rock art researcher may submit an entry, irrespective
-        academic affiliation—aficionados and amateurs welcome!
-        There are no fees for publishing entries.
+        Any rock art researcher may submit an entry. Aficionados and
+        amateurs welcome! There are no fees for publishing entries.
       </p>
       <p>
-        Feel free to contact the editors by email and Skype, or on
-        Facebook, Twitter, and LinkedIn, or see our pages at GitHub
-        and WordPress.<br>
+        Feel free to contact the editors or see our pages at GitHub and
+        WordPress.<br>
           <a href="mailto:whoswho.rockart"
         class="text-muted">whoswho.rockart (at) gmail.com</a><br>
           <a href="https://go.skype.com/sfw"
@@ -80,17 +75,16 @@ function panel1content() {
         whoswhorockart.wordpress.com/about</a>
       </p>
       <p>
-        The printed version will be available through CCSP and Amazon
-        for €10 (plus shipping) or €7 at the congress. People with
-        entries can get it from CCSP for €7 (plus shipping) or €5 at
-        the congress.
+        The printed version will be available through CCSP and Amazon for €10
+        (plus shipping) or €7 at the congress. People with entries can get it
+        from CCSP for €7 (plus shipping) or €5 at the congress.
       </p>
       <p>
-        The third edition will be a joint venture of CCSP,
-        Le Orme dell’Uomo and Carabà editions Milano.
+        The third edition will be a joint venture of CCSP, Le Orme
+        dell’Uomo and Carabà editions Milano.
       </p>
       <p>
-        Please share this information.
+        Please share this.
       </p>
       <p>
         A review can only take place after collecting information.
@@ -98,7 +92,7 @@ function panel1content() {
         management system. Now, wwr3 uses YAML (<a href="http://yaml.org/"
         class="text-muted">yaml.org</a>) to collect and shape information.
         YAML is a treelike data serialisation language discernible to both
-        humans and computers. It is convertible to formats like JSON
+        humans and computers. It is convertible to other formats like JSON
         (<a href="http://json.org/" class="text-muted">JavaScript Object
         Notation</a>) and XML (<a href="https://en.wikipedia.org/wiki/XML"
         class="text-muted">Extensible Markup Language</a>). SQL
@@ -111,7 +105,7 @@ function panel1content() {
       </p>
       <p>
         Please copy and complete wwr3 questionnaire and bibliography
-        templates and send them to <a href="mailto:whoswho.rockart"
+        templates. Send them to <a href="mailto:whoswho.rockart"
         class="text-muted">whoswho.rockart (at) gmail.com</a> or
         use the “send” button below each form.
       </p>
