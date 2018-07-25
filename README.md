@@ -23,9 +23,9 @@ publishing rock-art. As in previous issues, the idea is to foster
 networking between people interested in rock art.
 
 Entries will note research areas and interests, chronology, and
-bibliography. There will be a web app designed offline access. The same
-information will appear in print with a bibliography limited to five per
-person.
+bibliography. There will be a web app designed for offline access. The
+same information will appear in print with a bibliography limited to
+five per person.
 
 Any rock art researcher may submit an entry. Aficionados and amateurs
 welcome! There are no fees for publishing entries.

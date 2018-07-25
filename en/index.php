@@ -40,9 +40,9 @@ function panel1content() {
       </p>
       <p>
         Entries will note research areas and interests, chronology, and
-        bibliography. There will be a web app designed offline access. The same
-        information will appear in print with a bibliography limited to five per
-        person.
+        bibliography. There will be a web app designed for offline access. The
+        same information will appear in print with a bibliography limited to
+        five per person.
       </p>
       <p>
         Any rock art researcher may submit an entry. Aficionados and
