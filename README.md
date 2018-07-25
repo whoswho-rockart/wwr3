@@ -12,12 +12,11 @@ Ariela Fradkin Anati, who edited the previous two, celebrates
 the founding of CCSP in 1964.
 
 CCSP will present the third edition of “Who’s who in rock-art”
-(wwr3) at the 2018 IFRAO congress, “On the Shoulders of Giants”
+(wwr3) at its 2018 congress, “On the Shoulders of Giants”
 (31 August to 2 September, Boario Terme, Valcamonica, Italy),
 which commemorates fifty years since the first Valcamonica
 Symposium and thirty years of the Cooperativa Archeologica
-«Le Orme dell’Uomo» and the International Federation of Rock
-Art Organizations (IFRAO).
+«Le Orme dell’Uomo».
 
 There were 285 researchers in the 1995 edition and 305 in that
 of 1996. Since then, some colleagues are no longer with us.
@@ -53,8 +52,8 @@ for €10 (plus shipping) or €7 at the congress. People with
 entries can get it from CCSP for €7 (plus shipping) or €5 at
 the congress.
 
-The third edition will be a joint venture of IFRAO, CCSP,
-Le Orme dell’Uomo and Carabà editions Milano.
+The third edition will be a joint venture of CCSP, Le Orme dell’Uomo
+and Carabà editions Milano.
 
 A review can only take place after collecting information.In 1984,
 António Guerreiro adopted dBase, a relational database management system.

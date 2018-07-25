@@ -87,7 +87,7 @@ function panel1content() {
         the congress.
       </p>
       <p>
-        The third edition will be a joint venture of IFRAO, CCSP,
+        The third edition will be a joint venture of CCSP,
         Le Orme dell’Uomo and Carabà editions Milano.
       </p>
       <p>
