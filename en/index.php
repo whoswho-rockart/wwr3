@@ -27,7 +27,7 @@ function panel1content() {
       <p>
         CCSP will present the third edition of “Who’s who in rock-art” (wwr3)
         at the international rock art congress “On the Shoulders of Giants”
-        (31 August to 2 September 2018, Boario Terme, Valcamonica, Italy). The
+        (29 August to 2 September 2018, Boario Terme, Valcamonica, Italy). The
         congress marks fifty years since the first Valcamonica Symposium and
         thirty years of the Cooperativa Archeologica «Le Orme dell’Uomo».
       </p>
