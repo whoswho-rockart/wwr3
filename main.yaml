@@ -131,7 +131,7 @@ research_project:
 address:
   # duplicate and edit lines below to add an address
   -
-    details:
+    detail:
       # duplicate and edit a line to add information
       # delete a line to remove information
       - '(e.g., Unidade de Arqueologia)'
@@ -153,7 +153,6 @@ fax: '(e.g., +351 259 350 480)' # or none
 
 email: '(e.g., msabreu@utad.pt)' # or none
 skype: '(e.g., skype.name)' # none denotes none or non-disclosure
-messenger: '(e.g., WhatsApp - …)' # none denotes none or non-disclosure
 
 webpage:
   # duplicate and edit lines below to add a webpage
