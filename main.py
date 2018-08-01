@@ -1,4 +1,22 @@
----
+#!/usr/bin/env python3
+
+# -*- coding: utf-8 -*-
+
+# pyWWR creates, retrieves, updates and deletes wwr entries
+# repository: github.com/WhosWho-Rockart/pyWWR
+
+# dependencies (debian, ubuntu):
+# sudo apt install python3 python3-pip python3-ruamel.yaml python3-bottle python3-eventlet sqlite3
+
+# dependencies (macOS, Windows):
+# download installer from https://www.python.org/downloads/
+# pip3 install ruamel.yaml bottle eventlet
+
+# usage: python3 -m main
+
+import yaml
+
+document = """
 id: 'none' # do not edit
 
 surname: '(e.g., Abreu)'
@@ -150,7 +168,6 @@ address:
 mobile: '(e.g., +1 …)' # none denotes none or non-disclosure
 landline: '(e.g., +351 259 350 220)' # or none
 fax: '(e.g., +351 259 350 480)' # or none
-
 email: '(e.g., msabreu@utad.pt)' # or none
 skype: '(e.g., skype.name)' # none denotes none or non-disclosure
 
@@ -165,3 +182,6 @@ tags:
   - '(e.g., prehistoric cooking)' # none denotes no information
 
 note: '(e.g., none)' # none denotes no further information
+"""
+
+print(yaml.load(document)["award"])
