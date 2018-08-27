@@ -1,0 +1,161 @@
+---
+- Ludwig
+- Jaffe
+- L.
+
+- 1955, South Africa
+
+-
+  # affiliations
+  # duplicate and edit lines below to add an affiliation
+  -
+    - Centro Camuno di Studi Preistorici
+    - null
+    - null
+    - 1996
+    - null
+
+-
+  # award
+  # duplicate and edit lines below to add an award
+  -
+    - Rolex Awards for Enterprise
+    - Etched in Time, Italy
+    - Rolex
+    - 1990
+
+-
+  # education
+  # duplicate and edit lines below to add a qualification
+  -
+    - Social Science
+    - Polytechnic of Central Londo
+    - BA
+    - 1981
+
+-
+  # language
+  # duplicate and edit or delete lines below
+  # mother language first, others in order of fluency
+  # see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+  - en # English
+  - it # Italian
+  - pt # Portuguese
+
+-
+  # discipline
+  # delete those that do not apply
+  # duplicate and edit a line to add a discipline
+  - anthropology
+  - archaeology
+  - cognitive science
+  - computational science
+  - geography
+  - history
+  - museum studies
+  - sociology
+
+-
+  # research interests
+  # delete those that do not apply
+  # duplicate and edit a line to add a research interest
+  - analysis
+  - conservation
+  - education
+  - inventory
+  - recording
+  - site management
+
+-
+  # research continents
+  # delete those that do not apply
+  - AF # Africa
+  - AS # Asia
+  - EU # Europe
+  - SA # South and Central America
+
+-
+  # research interval (years ago)
+  - 80000
+  - 0
+
+-
+  # research periods
+  # delete those that do not apply
+  # duplicate and edit a line to add a research period
+  - Palaeolithic
+  - Mesolithic
+  - Neolithic
+  - Chalcolithic
+  - Bronze
+  - Iron
+  - Protohistory
+  - Classic
+  - Mediaeval
+  - Contact
+  - Modern
+
+-
+  # research projects
+  # duplicate and edit lines below to add a research project
+  -
+    - Valcamonica
+    - Brescia
+    - Italy
+    - 46.029541
+    - 10.338885
+    - 1984
+    - continues
+
+-
+  # address
+  # duplicate and edit lines below to add an address
+  -
+    -
+      # duplicate and edit or delete lines below to change details
+      - Centro Camuno di Studi Preistorici
+      - via Marconi, 7
+    - Capo di Ponte
+    - 25044
+    - Brescia
+    - Italy
+    - 46.029541
+    - 10.338885
+
+-
+  # phone, mobile, fax
+  # duplicate and edit following lines to add a number
+  -
+    - +39 364 42091
+    - landline
+  -
+    - +39 364 42572
+    - fax
+  -
+    - +351 259 350 220
+    - landline
+
+-
+  # email
+  # duplicate and edit line below to add an email
+  - whoswho.rockart@gmail.com
+
+-
+  # messenger
+  # duplicate and edit following lines to add a messenger
+  -
+    - project4dimensions
+    - Skype
+  -
+    - taurotragus@jabber.org
+    - XMPP
+
+-
+  # web page
+  # edit or delete lines below; duplicate and edit to add a web page
+  - http://www.ccsp.it/
+
+-
+  # other interests
+  # duplicate and edit a line to add an interest
+  - prehistoric cooking

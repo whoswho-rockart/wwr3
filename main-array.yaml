@@ -1,0 +1,157 @@
+---
+- forenames
+- surname
+- initials
+
+- born (e.g., 1959, South Africa)
+
+-
+  # affiliations
+  # duplicate and edit lines below to add an affiliation
+  -
+    - organization
+    - department, etc. or null
+    - position
+    - start (e.g., 1996)
+    - end (e.g., continues)
+
+-
+  # award
+  # duplicate and edit lines below to add an award
+  -
+    - name of award
+    - title of project or null
+    - organization
+    - year given
+
+-
+  # education
+  # duplicate and edit lines below to add a qualification
+  -
+    - discipline
+    - establishment
+    - qualification
+    - year
+
+-
+  # language
+  # duplicate and edit or delete lines below
+  # mother language first, others in order of fluency
+  # see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+  - (e.g., en) # English
+  - (e.g., it) # Italian
+
+-
+  # discipline
+  # delete those that do not apply
+  # duplicate and edit a line to add a discipline
+  - anthropology
+  - archaeology
+  - cognitive science
+  - computational science
+  - geography
+  - history
+  - history of art
+  - history of religions
+  - museum studies
+  - sociology
+
+-
+  # research interests
+  # delete those that do not apply
+  # duplicate and edit a line to add a research interest
+  - analysis
+  - conservation
+  - education
+  - inventory
+  - recording
+  - site management
+  - linguistics
+  - semiotics
+
+-
+  # research continents
+  # delete those that do not apply
+  - AF # Africa
+  - AS # Asia
+  - EU # Europe
+  - NA # North America
+  - SA # South and Central America
+  - OC # Oceania
+
+-
+  # research interval (years ago)
+  - from (e.g. 12000)
+  - to (e.g., 0 - which means recent)
+
+-
+  # research periods
+  # delete those that do not apply
+  # duplicate and edit a line to add a research period
+  - Palaeolithic
+  - Mesolithic
+  - Neolithic
+  - Chalcolithic
+  - Bronze
+  - Iron
+  - Protohistory
+  - Classic
+  - Mediaeval
+  - Contact
+  - Modern
+
+-
+  # research projects
+  # duplicate and edit lines below to add a research project
+  -
+    - area (e.g., Valcamonica)
+    - province, region, state, etc.
+    - country
+    - start (e.g., 1976)
+    - end (e.g., continues)
+
+-
+  # address
+  # duplicate and edit lines below to add an address
+  -
+    -
+      # duplicate and edit or delete lines below to change details
+      - name of building, etc.
+      - name of street, etc.
+    - town
+    - post code, ZIP, etc.
+    - province, region, state, etc. or null
+    - country
+    - latitude (e.g., 41.2859527 or null)
+    - longitude (e.g., -7.7392791 or null)
+
+-
+  # phone, mobile, fax
+  # duplicate and edit following lines to add a number
+  -
+    - number (e.g., +351 259 350 220 or null)
+    - landline mobile fax or null
+
+-
+  # email
+  # duplicate and edit line below to add an email
+  - (e.g., msabreu@utad.pt or null)
+
+-
+  # messenger
+  # duplicate and edit following lines to add a messenger
+  -
+    - name (e.g., p.panicus or null)
+    - type (e.g., Bonjour/GoogleTalk/IRC/Skype/XMPP or null)
+
+-
+  # web page
+  # edit or delete lines below; duplicate and edit to add a web page
+  - (e.g., http://www.utad.pt or null)
+  - (e.g., http://origins.utad.pt)
+  - (e.g., https://www.facebook.com/unidadearqueologiaUTAD/)
+
+-
+  # other interests
+  # duplicate and edit a line to add an interest
+  - (e.g., prehistoric cooking or null)

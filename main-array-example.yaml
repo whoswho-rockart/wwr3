@@ -1,0 +1,160 @@
+---
+- Mila Simões de
+- Abreu
+- M.
+
+- 1959, South Africa
+
+-
+  # affiliations
+  # duplicate and edit lines below to add an affiliation
+  -
+    - Universidade de Trás-os-Montes e Alto Douro
+    - Departamento de Geologia
+    - Professor auxiliar
+    - 1996
+    - continues
+
+-
+  # award
+  # duplicate and edit lines below to add an award
+  -
+    - The ARARA Conservation and Preservation Award
+    - null
+    - American Rock Art Research Association
+    - 1996
+
+-
+  # education
+  # duplicate and edit lines below to add a qualification
+  -
+    - Quaternary and Prehistory
+    - Universidade de Trás-os-Montes e Alto Douro
+    - PhD
+    - 2012
+
+-
+  # language
+  # duplicate and edit or delete lines below
+  # mother language first, others in order of fluency
+  # see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+  - pt # Portuguese
+  - it # Italian
+  - en # English
+  - fr # French
+
+-
+  # discipline
+  # delete those that do not apply
+  # duplicate and edit a line to add a discipline
+  - anthropology
+  - archaeology
+  - cognitive science
+  - computational science
+  - geography
+  - history
+  - history of art
+  - history of religions
+  - museum studies
+  - sociology
+
+-
+  # research interests
+  # delete those that do not apply
+  # duplicate and edit a line to add a research interest
+  - analysis
+  - conservation
+  - education
+  - inventory
+  - recording
+  - site management
+  - linguistics
+  - semiotics
+
+-
+  # research continents
+  # delete those that do not apply
+  - AF # Africa
+  - AS # Asia
+  - EU # Europe
+  - NA # North America
+  - SA # South and Central America
+  - OC # Oceania
+
+-
+  # research interval (years ago)
+  - 12000
+  - 0
+
+-
+  # research periods
+  # delete those that do not apply
+  # duplicate and edit a line to add a research period
+  - Palaeolithic
+  - Mesolithic
+  - Neolithic
+  - Chalcolithic
+  - Bronze
+  - Iron
+  - Protohistory
+  - Classic
+  - Mediaeval
+  - Contact
+  - Modern
+
+-
+  # research projects
+  # duplicate and edit lines below to add a research project
+  -
+    - Valcamonica
+    - Brescia
+    - Italy
+    - 1976
+    - continues
+
+-
+  # address
+  # duplicate and edit lines below to add an address
+  -
+    -
+    # Detail
+      # duplicate and edit or delete lines below to change details
+      - Polo I ECVA, Edifício de Geociências
+      - Universidade de Trás-os-Montes e Alto Douro
+    - Vila Real
+    - 5000-801
+    - null
+    - Portugal
+    - 41.2859527
+    - -7.7392791
+
+-
+  # phone, mobile, fax
+  # duplicate and edit following lines to add a number
+  -
+    - +351 259 350 220
+    - landline
+
+-
+  # email
+  # duplicate and edit line below to add an email
+  - msabreu@utad.pt
+
+-
+  # messenger
+  # duplicate and edit following lines to add a messenger
+  -
+    - p.panicus
+    - Skype
+
+-
+  # web page
+  # edit or delete lines below; duplicate and edit to add a web page
+  - http://www.utad.pt
+  - http://origins.utad.pt
+  - https://www.facebook.com/unidadearqueologiaUTAD/
+
+-
+  # other interests
+  # duplicate and edit a line to add an interest
+  - prehistoric cooking
