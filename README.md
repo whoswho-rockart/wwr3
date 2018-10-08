@@ -10,12 +10,6 @@ edition of “Who’s Who in Rock Art” in 1985 followed by another in 1996.
 Ariela Fradkin Anati edited both of these. A third edition dedicated to
 Ariela celebrates the founding of CCSP in 1964.
 
-CCSP will present the third edition of “who’s who in rock-art” (wwr3)
-at the international rock art congress “On the Shoulders of Giants”
-(29 August to 2 September 2018, Boario Terme, Valcamonica, Italy). The
-congress marks fifty years since the first Valcamonica Symposium and
-thirty years of the Cooperativa Archeologica «Le Orme dell’Uomo».
-
 There were 285 researchers in the 1995 edition and 305 in that of 1996.
 Since then, some colleagues are no longer with us. Even so, our number
 grew. Today there are over a thousand people finding, working on and
@@ -43,9 +37,9 @@ WordPress.
 [`whoswhorockart.wordpress.com/about`](https://whoswhorockart.wordpress.com/about/)
 
 The printed version will be available through CCSP and Amazon for €15
-(plus shipping) or pre-order for €10 (plus shipping) at the congress.
-People who fill complete their entries can order a copy from CCSP for
-€10 (plus shipping) or pre-order for €7 (plus shipping) at the congress.
+(plus shipping).
+People who complete their entries can order a copy from CCSP for €10
+(plus shipping) or pre-order for €7 (plus shipping) at the congress.
 
 The third edition will be a joint venture of CCSP, Le Orme dell’Uomo
 and Carabà editions Milano.
