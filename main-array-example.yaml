@@ -1,7 +1,6 @@
 ---
 - Mila Simões de
 - Abreu
-- M.
 
 - 1959, South Africa
 
@@ -20,7 +19,7 @@
   # duplicate and edit lines below to add an award
   -
     - The ARARA Conservation and Preservation Award
-    - null
+    - ""
     - American Rock Art Research Association
     - 1996
 
@@ -44,32 +43,23 @@
   - fr # French
 
 -
-  # discipline
-  # delete those that do not apply
-  # duplicate and edit a line to add a discipline
-  - anthropology
-  - archaeology
-  - cognitive science
-  - computational science
-  - geography
-  - history
-  - history of art
-  - history of religions
-  - museum studies
-  - sociology
-
--
   # research interests
   # delete those that do not apply
   # duplicate and edit a line to add a research interest
   - analysis
+  - anthropology
+  - archaeology
+  - cognition
   - conservation
   - education
+  - geography
+  - history
   - inventory
-  - recording
-  - site management
   - linguistics
+  - museology
+  - recording
   - semiotics
+  - "" # do not edit or delete this line
 
 -
   # research continents
@@ -80,6 +70,7 @@
   - NA # North America
   - SA # South and Central America
   - OC # Oceania
+  - "" # do not edit or delete this line
 
 -
   # research interval (years ago)
@@ -101,6 +92,7 @@
   - Mediaeval
   - Contact
   - Modern
+  - "" # do not edit or delete this line
 
 -
   # research projects
@@ -123,7 +115,7 @@
       - Universidade de Trás-os-Montes e Alto Douro
     - Vila Real
     - 5000-801
-    - null
+    - ""
     - Portugal
     - 41.2859527
     - -7.7392791

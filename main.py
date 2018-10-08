@@ -401,7 +401,7 @@ doc_json = """
 }
 """
 
-with open('main.json', 'w') as f:
+with open('main-object.json', 'w') as f:
     json.dump(yaml.load(doc_yaml), f, ensure_ascii=False)
 
 f.close()

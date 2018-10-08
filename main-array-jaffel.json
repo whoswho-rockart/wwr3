@@ -1,15 +1,14 @@
 [
     "Ludwig",
     "Jaffe",
-    "L.",
     "1955, South Africa",
     [
         [
             "Centro Camuno di Studi Preistorici",
-            null,
-            null,
+            "",
+            "",
             1996,
-            null
+            ""
         ]
     ],
     [
@@ -34,22 +33,19 @@
         "pt"
     ],
     [
+        "analysis",
         "anthropology",
         "archaeology",
-        "cognitive science",
-        "computational science",
-        "geography",
-        "history",
-        "museum studies",
-        "sociology"
-    ],
-    [
-        "analysis",
+        "cognition",
+        "computing",
         "conservation",
         "education",
+        "geography",
+        "history",
         "inventory",
         "recording",
-        "site management"
+        "sociology",
+        ""
     ],
     [
         "AF",
@@ -72,7 +68,8 @@
         "Classic",
         "Mediaeval",
         "Contact",
-        "Modern"
+        "Modern",
+        ""
     ],
     [
         [

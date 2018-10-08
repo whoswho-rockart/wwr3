@@ -1,7 +1,6 @@
 [
     "Mila Simões de",
     "Abreu",
-    "M.",
     "1959, South Africa",
     [
         [
@@ -15,7 +14,7 @@
     [
         [
             "The ARARA Conservation and Preservation Award",
-            null,
+            "",
             "American Rock Art Research Association",
             1996
         ]
@@ -35,26 +34,20 @@
         "fr"
     ],
     [
+        "analysis",
         "anthropology",
         "archaeology",
-        "cognitive science",
-        "computational science",
-        "geography",
-        "history",
-        "history of art",
-        "history of religions",
-        "museum studies",
-        "sociology"
-    ],
-    [
-        "analysis",
+        "cognition",
         "conservation",
         "education",
+        "geography",
+        "history",
         "inventory",
-        "recording",
-        "site management",
         "linguistics",
-        "semiotics"
+        "museology",
+        "recording",
+        "semiotics",
+        ""
     ],
     [
         "AF",
@@ -62,7 +55,8 @@
         "EU",
         "NA",
         "SA",
-        "OC"
+        "OC",
+        ""
     ],
     [
         12000,
@@ -79,7 +73,8 @@
         "Classic",
         "Mediaeval",
         "Contact",
-        "Modern"
+        "Modern",
+        ""
     ],
     [
         [
@@ -98,7 +93,7 @@
             ],
             "Vila Real",
             "5000-801",
-            null,
+            "",
             "Portugal",
             41.2859527,
             -7.7392791

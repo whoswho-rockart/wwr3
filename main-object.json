@@ -1,0 +1,162 @@
+{
+    "surname": "(e.g., Abreu)",
+    "forenames": "(e.g., Maria Emilia Simões de)",
+    "initials": "(e.g., M. E.)",
+    "lineage": "(e.g., Jr.)",
+    "honorific_prefix": "(e.g., Professora Doutora)",
+    "honorific_suffix": "(e.g., none)",
+    "birth_year": "(e.g., 1959)",
+    "birth_month": "(e.g., none)",
+    "birth_day": "(e.g., none)",
+    "birth_town": "(e.g., Johannesburg)",
+    "birth_country": "(e.g., South Africa)",
+    "affiliation": [
+        {
+            "organization": "(e.g., Universidade de Trás-os-Montes e Alto Douro)",
+            "abbreviation": "(e.g., UTAD)",
+            "section": [
+                "(e.g., Unidade de Arqueologia)", "(e.g., Departamento de Geologia)", "(e.g., Escola de Ciências da Vida e do Ambiente)"
+            ],
+            "position": "(e.g., Professor auxiliar)",
+            "year_joined": "(e.g., 1996)"
+        }
+    ],
+    "former_affiliation": [
+        {
+            "organization": "…",
+            "abbreviation": "…",
+            "section": [
+                "…", "…"
+            ],
+            "position": "…",
+            "year_joined": "…",
+            "year_left": "…"
+        }
+    ],
+    "award": [
+        {
+            "organization": "(e.g., American Rock Art Research Association",
+            "abbreviation": "(e.g., ARARA)",
+            "award": "(e.g., The ARARA Conservation and Preservation Award)",
+            "year_given": "(e.g., 1996)"
+        }
+    ],
+    "education": [
+        {
+            "discipline": "(e.g., Quaternary and Prehistory)",
+            "establishment": "(e.g., Universidade de Trás-os-Montes e Alto Douro)",
+            "qualification": "(e.g., PhD)",
+            "year_attained": "(e.g., 2012)"
+        }
+    ],
+    "language": [
+        "(e.g., Portuguese)", "(e.g., English)"
+    ],
+    "discipline": [
+        "Anthropology",
+        "Archaeology",
+        "Computer Science",
+        "Geography",
+        "History",
+        "History of Art",
+        "History of Religions",
+        "Museum Studies",
+        "Sociology"
+    ],
+    "research_interests": [
+        "Analysis",
+        "Conservation",
+        "Education",
+        "Inventory",
+        "Recording",
+        "Site Management",
+        "Linguistics",
+        "Semiotics"
+    ],
+    "research_zone": [
+        "Africa", "Asia", "Europe", "Americas", "Oceania"
+    ],
+    "research_interval": {
+        "from": "(e.g. 12000 denotes 12000 years ago)",
+        "to": "(e.g. 0 denotes the present day)"
+    },
+    "research_period": [
+        "Upper Palaeolithic",
+        "Mesolithic",
+        "Neolithic",
+        "Chalcolithic",
+        "Bronze Age",
+        "Iron Age",
+        "Mediaeval"
+    ],
+    "research_project": [
+        {
+            "title": "(e.g., Rock-art of Dos Sotto Laiolo)",
+            "year_started": "(e.g., 1984)",
+            "year_finished": "(e.g., none)",
+            "site_name": "(e.g., Dos Sotto Laiolo)",
+            "site_area": "(e.g., Valcamonica)",
+            "town": "(e.g., Paspardo)",
+            "post_code": "(e.g., 25050)",
+            "province": "(e.g., Brescia)",
+            "country": "(e.g., Italy)",
+            "latitude": "(e.g., 40.714728)",
+            "longitude": "(e.g., -73.998672)",
+            "note": "(e.g., none)"
+        }
+    ],
+    "address": [
+        {
+            "detail": [
+                "(e.g., Unidade de Arqueologia)",
+                "(e.g., Departamento de Geologia)",
+                "(e.g., Escola de Ciências da Vida e do Ambiente)",
+                "(e.g., Polo I ECVA, Edifício de Geociências)",
+                "(e.g., Quinta de Prados)",
+                "(e.g., Universidade de Trás-os-Montes e Alto Douro)"
+            ],
+            "town": "(e.g., Vila Real)",
+            "post_code": "(e.g., 5000-801)",
+            "province": "(e.g., region, state, etc.)",
+            "country": "(e.g., Portugal)",
+            "latitude": "(e.g., 41.2859527)",
+            "longitude": "(e.g., -7.7392791)"
+        }
+    ],
+    "phone": [
+        {
+            "number": "(e.g., +351 259 350 220)",
+            "note": "none"
+        }
+    ],
+    "mobile": [
+        {
+            "number": "(e.g., +1 …)",
+            "note": "none"
+        }
+    ],
+    "fax": [
+        {
+            "number": "(e.g., +351 259 350 480)",
+            "note": "none"
+        }
+    ],
+    "email": [
+        {
+            "mailto": "msabreu@utad.pt",
+            "note": "none"
+        }
+    ],
+    "messenger": [
+        {
+            "name": "none",
+            "type": "Bonjour/GoogleTalk/IRC/Skype/XMPP/…",
+            "note": "none"
+        }
+    ],
+    "webpage": [
+        "(e.g., http://www.utad.pt)", "(e.g., http://origins.utad.pt)", "(e.g., https://www.facebook.com/unidadearqueologiaUTAD/"
+    ],
+    "tag": ["(e.g., prehistoric cooking)"],
+    "note": "(e.g., none)"
+}

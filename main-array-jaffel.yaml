@@ -1,7 +1,6 @@
 ---
 - Ludwig
 - Jaffe
-- L.
 
 - 1955, South Africa
 
@@ -10,10 +9,10 @@
   # duplicate and edit lines below to add an affiliation
   -
     - Centro Camuno di Studi Preistorici
-    - null
-    - null
+    - ""
+    - ""
     - 1996
-    - null
+    - ""
 
 -
   # award
@@ -43,28 +42,22 @@
   - pt # Portuguese
 
 -
-  # discipline
-  # delete those that do not apply
-  # duplicate and edit a line to add a discipline
-  - anthropology
-  - archaeology
-  - cognitive science
-  - computational science
-  - geography
-  - history
-  - museum studies
-  - sociology
-
--
   # research interests
   # delete those that do not apply
   # duplicate and edit a line to add a research interest
   - analysis
+  - anthropology
+  - archaeology
+  - cognition
+  - computing
   - conservation
   - education
+  - geography
+  - history
   - inventory
   - recording
-  - site management
+  - sociology
+  - "" # do not edit or delete this line
 
 -
   # research continents
@@ -73,6 +66,7 @@
   - AS # Asia
   - EU # Europe
   - SA # South and Central America
+  - "" # do not edit or delete this line
 
 -
   # research interval (years ago)
@@ -94,6 +88,7 @@
   - Mediaeval
   - Contact
   - Modern
+  - "" # do not edit or delete this line
 
 -
   # research projects

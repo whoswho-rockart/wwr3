@@ -3,202 +3,213 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-<title>who’s who in rock-art, third edition (wwr3)</title>
-
 <meta name="description" content="Who’s Who in Rock-art">
 <meta name="author" content="Who’s Who in Rock-art">
+
+<title>who’s who in rock-art, third edition  (wwr3)</title>
+
 <meta name="keywords" content="who’s who, rock art">
 <meta name="application-name" content="wwr3">
 
 <meta name="msapplication-config" content="../assets/favicons/browserconfig.xml">
-<meta name="theme-color" content="#ffffff">
 <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicons/favicon-16x16.png">
 <link rel="manifest" href="../assets/favicons/manifest.json">
 <link rel="mask-icon" color="#5bbad5" href="../assets/favicons/safari-pinned-tab.svg">
 <link rel="shortcut icon" href="../assets/favicons/favicon.ico">
+<link rel="stylesheet" href="../assets/css/codemirror.css">
+<link rel="stylesheet" href="../assets/css/js-yaml-demo.css">
 <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="../assets/css/jumbotron-narrow.css">
+<link href="../assets/css/album.css" rel="stylesheet">
+<style>.container {max-width: 768px;}</style>
 </head>
 
 <body>
 <!--[if lte IE 9]><p>(cf., https://browsehappy.com/)</p><![endif]-->
-<div class="container">
 <noscript><p>JavaScript required to view this page</p></noscript>
 
-<div class="pos-f-t">
-  <div class="collapse" id="navbarToggleExternalContent">
-    <div class="bg-dark p-4">
-      <a class="text-light" href="index.html">introduction</a><br>
-      <a class="text-light" href="main.html">main questionaire</a><br>
-      <a class="text-light" href="main-example.html">main example</a><br>
-      <a class="text-light" href="book.html">book</a><br>
-      <a class="text-light" href="book-section.html">book section</a><br>
-      <a class="text-light" href="journal-article.html">journal article</a><br>
-      <a class="text-light" href="conference-paper.html">conference paper</a><br>
-      <a class="text-light" href="search.html">search</a><br>
+<header class="pt-1">
+  <div class="container">
+    <div class="collapse bg-dark" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <ul class="list-unstyled">
+              <li><a href="index.html" class="text-white">introduction</a></li>
+              <li><a href="main.html" class="text-white">main questionaire</a></li>
+              <li><a href="main-example.html" class="text-white">main example</a></li>
+              <li><a href="book.html" class="text-white">bibliography book</a></li>
+              <li><a href="book-section.html" class="text-white">bibliography book section</a></li>
+              <li><a href="journal-article.html" class="text-white">bibliography journal article</a></li>
+              <li><a href="conference-paper.html" class="text-white">bibliography conference paper</a></li>
+              <li><a href="search.html" class="text-white">search</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container d-flex justify-content-between">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <strong>wwr</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
     </div>
   </div>
-  <nav class="navbar navbar-dark bg-dark">
-    <button class="navbar-toggler py-0" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  </nav>
-</div>
+</header>
 
-<div class="mt-3 mb-3">
-  <img class="img-fluid mx-auto d-block" alt="../assets/images/wwr3.jpg" src="../assets/images/wwr3.jpg">
-</div>
+<main role="main">
 
-<h1 class="text-secondary">
-  <small>who’s who in rock-art, third edition</small>
-</h1>
+  <div class="container">
+    <div class="pt-1 pb-3">
+      <img class="img-fluid mx-auto d-block" alt="../assets/images/wwr3.jpg" src="../assets/images/wwr3.jpg">
+    </div>
+    <h1>
+      <small class="jumbotron-heading text-secondary">who’s who in rock-art, third edition</small>
+    </h1>
+    <p class="lead text-secondary">
+      the changing world of rock-art studies<br>
+      people, what they do and where
+    </p>
+  </div>
 
-<p class="text-secondary mb-4">the changing world of rock-art studies<br>
-people, what they do and where</p>
+  <div class="album pt-3 pb-1 bg-transparent">
+    <div class="container">
+      <div class="row">
 
-<div class="card mb-2">
-  <div class="card-body">
-    <h2 class="text-secondary"><small>search wwr3</small></h2>
-    <p class="card-text">
-      <form id="searchwwr3" name="searchwwr3" accept-charset="utf-8" method="get" action="">
-        <div class="form-group">
-          <span class="form-text text-secondary">forenames</span>
-          <input type="text" class="form-control" id="forenames" name="forenames" readonly>
-        </div>
-        <div class="form-group">
-          <span class="form-text text-secondary">surname</span>
-          <input type="text" class="form-control" id="surname" name="surname"  readonly>
-        </div>
-        <div class="form-group">
-          <span class="form-text text-secondary">discipline</span>
-          <div class="card">
+        <div class="col-md-12">
+          <div class="card mb-4 shadow-sm">
             <div class="card-body">
-              <div class="form-check form-check text-secondary">
-                <input class="form-check-input" type="radio" id="anthropology" name="discipline" value="anthropology">
-                <label class="form-check-label" for="anthropology">anthropology</label>
-              </div>
-              <div class="form-check form-check text-secondary">
-                <input class="form-check-input" type="radio" id="archaeology" name="discipline" value="archaeology">
-                <label class="form-check-label" for="anthropology">archaeology</label>
-              </div>
-              <div class="form-check form-check text-secondary">
-                <input class="form-check-input" type="radio" id="cognitive" name="discipline" value="cognitive science">
-                <label class="form-check-label" for="cognitive">cognitive science</label>
-              </div>
-              <div class="form-check form-check text-secondary">
-                <input class="form-check-input" type="radio" id="computational" name="discipline" value="computational science">
-                <label class="form-check-label" for="computational">computational science</label>
-              </div>
-              <div class="form-check form-check text-secondary">
-                <input class="form-check-input" type="radio" name="discipline" id="geography" value="geography">
-                <label class="form-check-label" for="geography">geography</label>
-              </div>
-              <div class="form-check form-check text-secondary">
-                <input class="form-check-input" type="radio" id="history" name="discipline" value="history">
-                <label class="form-check-label" for="history">history</label>
-              </div>
-              <div class="form-check form-check text-secondary">
-                <input class="form-check-input" type="radio" id="history_art" name="discipline" value="history of art">
-                <label class="form-check-label" for="history_art">history of art</label>
-              </div>
-              <div class="form-check form-check text-secondary">
-                <input class="form-check-input" type="radio" id="history_religions" name="discipline" value="history of religions">
-                <label class="form-check-label" for="history_religions">history of religions</label>
-              </div>
-              <div class="form-check form-check text-secondary">
-                <input class="form-check-input" type="radio" id="museum" name="discipline" value="museum studies">
-                <label class="form-check-label" for="museum">museum studies</label>
-              </div>
-              <div class="form-check form-check text-secondary">
-                <input class="form-check-input" type="radio" id="sociology" name="discipline" value="sociology">
-                <label class="form-check-label" for="sociology">sociology</label>
-              </div>
-              <div class="form-check form-check text-secondary">
-                <input class="form-check-input" type="radio" id="none" name="discipline" value="">
-                <label class="form-check-label" for="none"></label>
-              </div>
+              <h2 class="card-text text-secondary"><small>search wwr3</small></h2>
+                <form id="form1" class="card-text text-secondary" name="form1" accept-charset="utf-8" method="get" action="">
+                  <div class="form-group">
+                    <span class="form-text text-secondary">forenames</span>
+                    <input type="text" class="form-control" id="forenames" name="forenames">
+                  </div>
+                  <div class="form-group">
+                    <span class="form-text text-secondary">surname</span>
+                    <input type="text" class="form-control" id="surname" name="surname">
+                  </div>
+                  <div class="form-group">
+                    <span class="form-text text-secondary">interests</span>
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="form-check form-check text-secondary">
+                          <input class="form-check-input" type="radio" id="analysis" name="interests" value="analysis">
+                          <label class="form-check-label" for="analysis">analysis</label>
+                        </div>
+                        <div class="form-check form-check text-secondary">
+                          <input class="form-check-input" type="radio" id="anthropology" name="interests" value="anthropology">
+                          <label class="form-check-label" for="anthropology">anthropology</label>
+                        </div>
+                        <div class="form-check form-check text-secondary">
+                          <input class="form-check-input" type="radio" id="archaeology" name="interests" value="archaeology">
+                          <label class="form-check-label" for="archaeology">archaeology</label>
+                        </div>
+                        <div class="form-check form-check text-secondary">
+                          <input class="form-check-input" type="radio" id="astronomy" name="interests" value="astronomy">
+                          <label class="form-check-label" for="astronomy">astronomy</label>
+                        </div>
+                        <div class="form-check form-check text-secondary">
+                          <input class="form-check-input" type="radio" id="cognition" name="interests" value="cognition">
+                          <label class="form-check-label" for="cognition">cognition</label>
+                        </div>
+                        <div class="form-check form-check text-secondary">
+                          <input class="form-check-input" type="radio" id="computing" name="interests" value="computing">
+                          <label class="form-check-label" for="computing">computing</label>
+                        </div>
+                        <div class="form-check form-check text-secondary">
+                          <input class="form-check-input" type="radio" id="conservation" name="interests" value="conservation">
+                          <label class="form-check-label" for="conservation">conservation</label>
+                        </div>
+                        <div class="form-check form-check text-secondary">
+                          <input class="form-check-input" type="radio" id="education" name="interests" value="education">
+                          <label class="form-check-label" for="education">education</label>
+                        </div>
+                        <div class="form-check form-check text-secondary">
+                          <input class="form-check-input" type="radio" name="interests" id="geography" value="geography">
+                          <label class="form-check-label" for="geography">geography</label>
+                        </div>
+                        <div class="form-check form-check text-secondary">
+                          <input class="form-check-input" type="radio" id="history" name="interests" value="history">
+                          <label class="form-check-label" for="history">history</label>
+                        </div>
+                        <div class="form-check form-check text-secondary">
+                          <input class="form-check-input" type="radio" id="inventory" name="interests" value="inventory">
+                          <label class="form-check-label" for="inventory">inventory</label>
+                        </div>
+                        <div class="form-check form-check text-secondary">
+                          <input class="form-check-input" type="radio" id="linguistics" name="interests" value="linguistics">
+                          <label class="form-check-label" for="linguistics">linguistics</label>
+                        </div>
+                        <div class="form-check form-check text-secondary">
+                          <input class="form-check-input" type="radio" id="museology" name="interests" value="museology">
+                          <label class="form-check-label" for="museology">museology</label>
+                        </div>
+                        <div class="form-check form-check text-secondary">
+                          <input class="form-check-input" type="radio" id="recording" name="interests" value="recording">
+                          <label class="form-check-label" for="recording">recording</label>
+                        </div>
+                        <div class="form-check form-check text-secondary">
+                          <input class="form-check-input" type="radio" id="semiotics" name="interests" value="semiotics">
+                          <label class="form-check-label" for="semiotics">semiotics</label>
+                        </div>
+                        <div class="form-check form-check text-secondary">
+                          <input class="form-check-input" type="radio" id="sociology" name="interests" value="sociology">
+                          <label class="form-check-label" for="sociology">sociology</label>
+                        </div>
+                        <div class="form-check form-check text-secondary">
+                          <input class="form-check-input" type="radio" id="unspecified" name="interests" value="" checked>
+                          <label class="form-check-label" for="unspecified"></label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                      <button type="button" class="btn btn-secondary" onclick="process(form1)">Search</button>
+                      <button type="button" class="btn btn-secondary" onclick="clearbox('results')">Clear results</button>
+                  </div>
+                </form>
+            </div>
+          </div>
+          <div class="card mb-4 shadow-sm">
+            <div id="results" class="card-body">
+              <h2 class="card-text text-secondary"><small>search results</small></h2>
             </div>
           </div>
         </div>
-        <div class="form-group">
-            <button type="button" class="btn btn-secondary" onclick="doSearch(searchwwr3)">Search</button>
-        </div>
-      </form>
-    </p>
+      </div>
+      <!-- /div class="row" -->
+    </div>
+    <!-- /div class="container" -->
   </div>
-</div>
+  <!-- /div class="album pt-3 pb-1 bg-transparent" -->
 
-<div class="card mb-4">
-  <div id="results" class="card-body">
-    <h2 class="text-secondary">
-      <small>search results</small>
-    </h2>
-    <p class="card-text text-secondary"></p>
-  </div>
-</div>
+</main>
 
-<footer class="footer mt-3 mb-2 py-1">
+<footer class="text-muted  pt-1">
   <div class="container">
-    <small class="pull-right text-secondary"></small>
-    <small>
-      <a href="https://github.com/whoswho-rockart" class="text-secondary">wwr3</a>
-    </small>
+    <hr class="mb-1">
+    <p class="float-right">
+      <a class="text-muted" href="#">back to top</a>
+    </p>
+    <p><a class="text-muted" href="https://github.com/whoswho-rockart">who’s who in rock-art</a></p>
   </div>
 </footer>
-</div>
-<!-- /div class="container" -->
 
-<script src="../assets/js/jquery-3.3.1.min.js"></script>
+<script src="../assets/js/jquery-3.3.1.slim.min.js"></script>
+<script>window.jQuery || document.write('<script src="../assets/js/jquery-3.3.1.slim.min.js"><\/script>')</script>
 <script src="../assets/js/popper.min.js"></script>
 <script src="../assets/js/bootstrap.min.js"></script>
+<script src="../assets/js/holder.min.js"></script>
+<script src="../assets/js/js-yaml-demo.js"></script>
 <script src="main-array.js"></script>
-<script>
-/* validated with JSLint edition 2018-08-11 (http://jslint.com/)
- * no errors reported (JSLint options: Assume… a browser)
- */
-
-function doSearch(wwrForm) {
-    "use strict";
-    var formDspln = wwrForm.discipline.value.toLowerCase();
-    var a = document.getElementById("results");
-    var b;
-    var c;
-    var d;
-    var i = 0;
-    var j = 0;
-    while (i < wwr3.length) {
-        b = document.createElement("p");
-        b.setAttribute("class", "card-text text-secondary");
-        b.appendChild(document.createTextNode(wwr3[i][1] + ", "));
-        b.appendChild(document.createTextNode(wwr3[i][0] + ". "));
-        b.appendChild(document.createTextNode("Discipline: "));
-        j = 0;
-        while (j < wwr3[i][8].length) {
-            if (j === wwr3[i][8].length - 1) {
-                c = ".";
-                //if (i === wwr3.length - 1) {
-                    //c = "";
-                //} else {
-                    //c = ".";
-                //}
-            } else {
-                c = (", ");
-            }
-            d = wwr3[i][8][j].toLowerCase() + c;
-            b.appendChild(document.createTextNode(d));
-            j += 1;
-        }
-        a.appendChild(b);
-        i += 1;
-    }
-    //b = document.createElement("p");
-    //b.setAttribute("class", "card-text text-secondary");
-    //b.appendChild(document.createTextNode(formDspln));
-    //a.appendChild(b);
-}
-</script>
+<script src="search.js"></script>
 </body>
 </html>
