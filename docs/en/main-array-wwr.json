@@ -1,20 +1,15 @@
 [
-    "Ludwig",
-    "Jaffe",
+    "Whoswho",
+    "Rockart",
     "1955, South Africa",
     [
         [
-            "Centro Camuno di Studi Preistorici",
-            "",
-            "",
-            1996,
-            ""
         ]
     ],
     [
         [
             "Rolex Awards for Enterprise",
-            "Etched in Time, Italy",
+            "Etched in Time (Italy)",
             "Rolex",
             1990
         ]
@@ -22,7 +17,7 @@
     [
         [
             "Social Science",
-            "Polytechnic of Central Londo",
+            "Polytechnic of Central London",
             "BA",
             1981
         ]
@@ -33,7 +28,6 @@
         "pt"
     ],
     [
-        "analysis",
         "anthropology",
         "archaeology",
         "cognition",
@@ -76,25 +70,22 @@
             "Valcamonica",
             "Brescia",
             "Italy",
-            46.029541,
-            10.338885,
             1984,
-            "continues"
+            "present"
         ]
     ],
     [
         [
-            [
-                "Centro Camuno di Studi Preistorici",
-                "via Marconi, 7"
-            ],
-            "Capo di Ponte",
-            25044,
-            "Brescia",
-            "Italy",
-            46.029541,
-            10.338885
-        ]
+            "Centro Camuno di Studi Preistorici",
+            "via Marconi, 7"
+        ],
+        "Capo di Ponte",
+        25044,
+        "Brescia",
+        "Italy",
+        46.029541,
+        10.338885
+
     ],
     [
         [
@@ -115,18 +106,11 @@
     ],
     [
         [
-            "project4dimensions",
+            "whoswho.rockart",
             "Skype"
-        ],
-        [
-            "taurotragus@jabber.org",
-            "XMPP"
         ]
     ],
     [
-        "http://www.ccsp.it/"
-    ],
-    [
-        "prehistoric cooking"
+        "www.ccsp.it"
     ]
 ]

@@ -8,12 +8,19 @@
             "Departamento de Geologia",
             "Professor auxiliar",
             1996,
-            "continues"
-        ]
+            "present"
+        ],
+            [
+                "Centro Camuno di Studi Preistorici",
+                ,
+                "Scientific council",
+                2014,
+                "present"
+            ]
     ],
     [
         [
-            "The ARARA Conservation and Preservation Award",
+            "ARARA Conservation and Preservation Award",
             "",
             "American Rock Art Research Association",
             1996
@@ -34,7 +41,6 @@
         "fr"
     ],
     [
-        "analysis",
         "anthropology",
         "archaeology",
         "cognition",
@@ -42,7 +48,6 @@
         "education",
         "geography",
         "history",
-        "inventory",
         "linguistics",
         "museology",
         "recording",
@@ -82,22 +87,28 @@
             "Brescia",
             "Italy",
             1976,
-            "continues"
+            "present"
+        ],
+        [
+            "Montesinho",
+            "Bragança",
+            "Portugal",
+            1992,
+            "1994"
         ]
     ],
     [
         [
-            [
-                "Polo I ECVA, Edifício de Geociências",
-                "Universidade de Trás-os-Montes e Alto Douro"
-            ],
-            "Vila Real",
-            "5000-801",
-            "",
-            "Portugal",
-            41.2859527,
-            -7.7392791
-        ]
+            "Polo I ECVA, Edifício de Geociências",
+            "Universidade de Trás-os-Montes e Alto Douro"
+        ],
+        "Vila Real",
+        "5000-801",
+        "",
+        "Portugal",
+        41.2859527,
+        -7.7392791
+
     ],
     [
         [
@@ -115,11 +126,8 @@
         ]
     ],
     [
-        "http://www.utad.pt",
-        "http://origins.utad.pt",
-        "https://www.facebook.com/unidadearqueologiaUTAD/"
-    ],
-    [
-        "prehistoric cooking"
+        "www.utad.pt",
+        "origins.utad.pt",
+        "www.facebook.com/unidadearqueologiaUTAD"
     ]
 ]

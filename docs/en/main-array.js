@@ -1,4 +1,4 @@
-var wwr3 = [
+var wwr = [
     [
         "Mila Simões de",
         "Abreu",
@@ -9,13 +9,18 @@ var wwr3 = [
                 "Departamento de Geologia",
                 "Professor auxiliar",
                 1996,
-                "continues"
+                "present"
+            ],
+            [
+                "Centro Camuno di Studi Preistorici",
+                "Scientific council",
+                2014,
+                "present"
             ]
         ],
         [
             [
-                "The ARARA Conservation and Preservation Award",
-                "",
+                "ARARA Conservation and Preservation Award",
                 "American Rock Art Research Association",
                 1996
             ]
@@ -35,7 +40,6 @@ var wwr3 = [
             "fr"
         ],
         [
-            "analysis",
             "anthropology",
             "archaeology",
             "cognition",
@@ -43,7 +47,6 @@ var wwr3 = [
             "education",
             "geography",
             "history",
-            "inventory",
             "linguistics",
             "museology",
             "recording",
@@ -81,24 +84,29 @@ var wwr3 = [
             [
                 "Valcamonica",
                 "Brescia",
-                "Italy",
+                "IT",
                 1976,
-                "continues"
+                "present"
+            ],
+            [
+                "Montesinho",
+                "Bragança",
+                "PT",
+                1992,
+                "1994"
             ]
         ],
         [
             [
-                [
-                    "Polo I ECVA, Edifício de Geociências",
-                    "Universidade de Trás-os-Montes e Alto Douro"
-                ],
-                "Vila Real",
-                "5000-801",
-                "",
-                "Portugal",
-                41.2859527,
-                -7.7392791
-            ]
+                "Polo I ECVA, Edifício de Geociências",
+                "Universidade de Trás-os-Montes e Alto Douro"
+            ],
+            "Vila Real",
+            "5000-801",
+            "Vila Real",
+            "PT",
+            41.2859527,
+            -7.7392791
         ],
         [
             [
@@ -116,31 +124,21 @@ var wwr3 = [
             ]
         ],
         [
-            "http://www.utad.pt",
-            "http://origins.utad.pt",
-            "https://www.facebook.com/unidadearqueologiaUTAD/"
-        ],
-        [
-            "prehistoric cooking"
+            "www.utad.pt",
+            "origins.utad.pt",
+            "www.facebook.com/unidadearqueologiaUTAD"
         ]
     ],
     [
-        "Ludwig",
-        "Jaffe",
+        "Whoswho",
+        "Rockart",
         "1955, South Africa",
         [
-            [
-                "Centro Camuno di Studi Preistorici",
-                "",
-                "",
-                1996,
-                ""
-            ]
         ],
         [
             [
                 "Rolex Awards for Enterprise",
-                "Etched in Time, Italy",
+                "Etched in Time (Italy)",
                 "Rolex",
                 1990
             ]
@@ -148,7 +146,7 @@ var wwr3 = [
         [
             [
                 "Social Science",
-                "Polytechnic of Central Londo",
+                "Polytechnic of Central London",
                 "BA",
                 1981
             ]
@@ -159,7 +157,6 @@ var wwr3 = [
             "pt"
         ],
         [
-            "analysis",
             "anthropology",
             "archaeology",
             "cognition",
@@ -168,8 +165,6 @@ var wwr3 = [
             "education",
             "geography",
             "history",
-            "inventory",
-            "recording",
             "sociology",
             ""
         ],
@@ -202,26 +197,22 @@ var wwr3 = [
             [
                 "Valcamonica",
                 "Brescia",
-                "Italy",
-                46.029541,
-                10.338885,
+                "IT",
                 1984,
-                "continues"
+                "present"
             ]
         ],
         [
             [
-                [
-                    "Centro Camuno di Studi Preistorici",
-                    "via Marconi, 7"
-                ],
-                "Capo di Ponte",
-                25044,
-                "Brescia",
-                "Italy",
-                46.029541,
-                10.338885
-            ]
+                "Centro Camuno di Studi Preistorici",
+                "via Marconi, 7"
+            ],
+            "Capo di Ponte",
+            25044,
+            "Brescia",
+            "IT",
+            46.029541,
+            10.338885
         ],
         [
             [
@@ -242,19 +233,12 @@ var wwr3 = [
         ],
         [
             [
-                "project4dimensions",
+                "whoswho.rockart",
                 "Skype"
-            ],
-            [
-                "taurotragus@jabber.org",
-                "XMPP"
             ]
         ],
         [
-            "http://www.ccsp.it/"
-        ],
-        [
-            "prehistoric cooking"
+            "www.ccsp.it"
         ]
     ]
 ];
