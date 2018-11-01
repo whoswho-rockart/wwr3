@@ -9,11 +9,11 @@ The Centro Camuno di Studi Preistorici (CCSP) published the first edition of “
 
 There were 285 researchers in the 1995 edition and 305 in that of 1996. Since then, some colleagues are no longer with us. Even so, our number grew. Today there are over a thousand people finding, working on and publishing rock-art. As in previous issues, the idea is to foster networking between people interested in rock art.
 
-Entries will note research areas and interests, chronology, and bibliography. There will be a web app designed for offline access. The same information will appear in print.
+Entries note research interests, continents, periods and projects.
 
 Any rock art researcher may submit an entry. Aficionados and amateurs welcome! There are no fees for publishing entries.
 
-Feel free to contact the editors or see our pages at GitHub and WordPress.
+Feel free to contact the editors or see our web pages.
 
 [`whoswho.rockart (at) gmail.com`](mailto:whoswho.rockart)  
 [`whoswho.rockart (Skype)`](https://go.skype.com/sfw)  
