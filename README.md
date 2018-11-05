@@ -24,7 +24,7 @@ Feel free to contact the editors or see our web pages.
 [`whoswho-rockart.github.io/wwr3`](https://whoswho-rockart.github.io/wwr3/)  
 [`whoswhorockart.wordpress.com/about`](https://whoswhorockart.wordpress.com/about/)
 
-The printed version will be available through CCSP and Amazon for €15 (plus shipping). People who complete their entries can order a copy from CCSP for €10 (plus shipping) or pre-order for €7 (plus shipping) at the congress.
+The printed version will be available through CCSP and Amazon for €15 (plus shipping). People with entries can order a copy from CCSP for €10 (plus shipping) or pre-order for €7 (plus shipping).
 
 The third edition will be a joint venture of CCSP, Le Orme dell’Uomo and Carabà editions Milano.
 
