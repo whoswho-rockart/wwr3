@@ -1,0 +1,156 @@
+---
+# 0 forenames
+- Whoswho
+
+# 1 surname
+- Rockart
+
+# 2 born
+- 1955, South Africa
+
+
+# 3 affiliations
+-
+  # duplicate and edit lines below to add an affiliation
+  -
+
+
+# 4 awards
+-
+  # duplicate and edit lines below to add an award
+  -
+    - Rolex Awards for Enterprise
+    - Etched in Time (Italy)
+    - Rolex
+    - 1990
+
+
+# 5 education
+-
+  # duplicate and edit lines below to add a qualification
+  -
+    - Social Science
+    - Polytechnic of Central London
+    - BA
+    - 1981
+
+
+# 6 languages
+-
+  # duplicate and edit or delete lines below
+  # mother language first, others in order of fluency
+  # see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+  - en # English
+  - it # Italian
+  - pt # Portuguese
+
+
+# 7 research interests
+-
+  # delete those that do not apply
+  # duplicate and edit a line to add a research interest
+  - anthropology
+  - archaeology
+  - computing
+  - conservation
+  - education
+  - geography
+  - history
+  - sociology
+  - "" # do not edit or delete this line
+
+
+# 8 research continents
+-
+  # delete those that do not apply
+  # see planetarynames.wr.usgs.gov/Abbreviations
+  - AF # Africa
+  - AS # Asia
+  - EU # Europe
+  - SA # South and Central America
+  - "" # do not edit or delete this line
+
+
+# 9 research interval (years ago)
+-
+  - 80000
+  - 0
+
+
+# 10 research periods
+-
+  # delete those that do not apply
+  # duplicate and edit a line to add a research period
+  - Palaeolithic
+  - Mesolithic
+  - Neolithic
+  - Chalcolithic
+  - Bronze
+  - Iron
+  - Protohistory
+  - Classic
+  - Mediaeval
+  - Contact
+  - Modern
+  - "" # do not edit or delete this line
+
+
+# 11 research projects
+-
+  # duplicate and edit lines below to add a research project
+  # see en.wikipedia.org/wiki/List_of_ISO_3166_country_codes
+  -
+    - Valcamonica
+    - Brescia
+    - IT
+    - 1984
+    - present
+
+
+# 12 address
+-
+  # see en.wikipedia.org/wiki/List_of_ISO_3166_country_codes
+  -
+    # duplicate and edit or delete lines below to change details
+    - Centro Camuno di Studi Preistorici
+    - via Marconi, 7
+  - Capo di Ponte
+  - 25044
+  - Brescia
+  - IT
+  - 46.029541
+  - 10.338885
+
+
+# 13 phone, mobile, fax
+-
+  # duplicate and edit following lines to add a number
+  -
+    - +39 364 42091
+    - landline
+  -
+    - +39 364 42572
+    - fax
+  -
+    - +351 259 350 220
+    - landline
+
+
+# 14 email
+-
+  # duplicate and edit line below to add an email
+  - whoswho.rockart@gmail.com
+
+
+# 15 messenger
+-
+  # duplicate and edit following lines to add a messenger
+  -
+    - whoswho.rockart
+    - Skype
+
+
+# 16 web pages
+-
+  # edit or delete lines below; duplicate and edit to add a web page
+  - www.ccsp.it

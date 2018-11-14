@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Who’s Who in Rock-art">
+<meta name="author" content="Who’s Who in Rock-art">
+
+<title>who’s who in rock-art, third edition  (wwr3)</title>
+
+<meta name="keywords" content="who’s who, rock art">
+<meta name="application-name" content="wwr3">
+
+<meta name="msapplication-config" content="../assets/favicons/browserconfig.xml">
+<link rel="apple-touch-icon" sizes="180x180" href="../assets/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../assets/favicons/favicon-16x16.png">
+<link rel="manifest" href="../assets/favicons/manifest.json">
+<link rel="mask-icon" color="#5bbad5" href="../assets/favicons/safari-pinned-tab.svg">
+<link rel="shortcut icon" href="../assets/favicons/favicon.ico">
+<link rel="stylesheet" href="../assets/css/codemirror.css">
+<link rel="stylesheet" href="../assets/css/js-yaml-demo.css">
+<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+<link href="../assets/css/album.css" rel="stylesheet">
+<style>.container {max-width: 768px;}</style>
+</head>
+
+<body>
+<!--[if lte IE 9]><p>(cf., https://browsehappy.com/)</p><![endif]-->
+<noscript><p>JavaScript required to view this page</p></noscript>
+
+<header class="pt-1">
+  <div class="container">
+    <div class="collapse bg-dark" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <ul class="list-unstyled">
+              <li><a href="index.html" class="text-white">introduction</a></li>
+              <li><a href="main.html" class="text-white">main questionaire</a></li>
+              <li><a href="main-example.html" class="text-white">main example</a></li>
+              <li><a href="book.html" class="text-white">bibliography book</a></li>
+              <li><a href="book-section.html" class="text-white">bibliography book section</a></li>
+              <li><a href="journal-article.html" class="text-white">bibliography journal article</a></li>
+              <li><a href="conference-paper.html" class="text-white">bibliography conference paper</a></li>
+              <li><a href="search.html" class="text-white">search</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container d-flex justify-content-between">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <strong>wwr</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main role="main">
+
+  <div class="container">
+    <div class="pt-1 pb-3">
+      <img class="img-fluid mx-auto d-block" alt="../assets/images/wwr3.jpg" src="../assets/images/wwr3.jpg">
+    </div>
+    <h1>
+      <small class="jumbotron-heading text-secondary">who’s who in rock-art, third edition</small>
+    </h1>
+    <p class="lead text-secondary">
+      the changing world of rock-art studies<br>
+      people, what they do and where
+    </p>
+  </div>
+
+  <div class="album pt-3 pb-1 bg-transparent">
+    <div class="container">
+      <div class="card mb-4 shadow-sm">
+        <div class="card-body">
+          <h2 class="card-text text-secondary"><small>search wwr3</small></h2>
+
+          <form id="form1" class="card-text text-secondary" name="form1" accept-charset="utf-8" method="get" action="">
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <span class="form-text text-secondary">forenames</span>
+                  <input type="text" class="form-control" id="forenames" name="forenames">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <span class="form-text text-secondary">surname</span>
+                  <input type="text" class="form-control" id="surname" name="surname">
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <span class="form-text text-secondary">research interests</span>
+              <div class="card">
+                <div class="card-body">
+                  <div class="row">
+                  
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="anthropology" name="interests" value="anthropology">
+                        <label class="form-check-label" for="anthropology">anthropology</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="archaeology" name="interests" value="archaeology">
+                        <label class="form-check-label" for="archaeology">archaeology</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="astronomy" name="interests" value="astronomy">
+                        <label class="form-check-label" for="astronomy">astronomy</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="cognition" name="interests" value="cognition">
+                        <label class="form-check-label" for="cognition">cognition</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="computing" name="interests" value="computing">
+                        <label class="form-check-label" for="computing">computing</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="conservation" name="interests" value="conservation">
+                        <label class="form-check-label" for="conservation">conservation</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="education" name="interests" value="education">
+                        <label class="form-check-label" for="education">education</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" name="interests" id="geography" value="geography">
+                        <label class="form-check-label" for="geography">geography</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="history" name="interests" value="history">
+                        <label class="form-check-label" for="history">history</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="linguistics" name="interests" value="linguistics">
+                        <label class="form-check-label" for="linguistics">linguistics</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="museology" name="interests" value="museology">
+                        <label class="form-check-label" for="museology">museology</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="recording" name="interests" value="recording">
+                        <label class="form-check-label" for="recording">recording</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="semiotics" name="interests" value="semiotics">
+                        <label class="form-check-label" for="semiotics">semiotics</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="sociology" name="interests" value="sociology">
+                        <label class="form-check-label" for="sociology">sociology</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="unspecifiedi" name="interests" value="" checked>
+                        <label class="form-check-label" for="unspecifiedi"></label>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <span class="form-text text-secondary">other research interest</span>
+                  <input type="text" class="form-control" id="interest" name="interest">
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <span class="form-text text-secondary">research continents</span>
+              <div class="card">
+                <div class="card-body">
+                  <div class="row">
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="af" name="continents" value="AF">
+                        <label class="form-check-label" for="af">africa</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="as" name="continents" value="AS">
+                        <label class="form-check-label" for="as">asia</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="eu" name="continents" value="EU">
+                        <label class="form-check-label" for="eu">europe</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="na" name="continents" value="NA">
+                        <label class="form-check-label" for="na">north america</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="sa" name="continents" value="SA">
+                        <label class="form-check-label" for="sa">latin america</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="oc" name="continents" value="SA">
+                        <label class="form-check-label" for="oc">oceania</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="unspecifiedc" name="continents" value="" checked>
+                        <label class="form-check-label" for="unspecifiedc"></label>
+                      </div>
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <span class="form-text text-secondary">research periods</span>
+              <div class="card">
+                <div class="card-body">
+                  <div class="row">
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="palaeolithic" name="periods" value="Palaeolithic">
+                        <label class="form-check-label" for="palaeolithic">palaeolithic</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="mesolithic" name="periods" value="Mesolithic">
+                        <label class="form-check-label" for="mesolithic">mesolithic</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="neolithic" name="periods" value="Neolithic">
+                        <label class="form-check-label" for="neolithic">neolithic</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="chalcolithic" name="periods" value="Chalcolithic">
+                        <label class="form-check-label" for="chalcolithic">chalcolithic</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="sa" name="periods" value="Bronze">
+                        <label class="form-check-label" for="sa">bronze</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="oc" name="periods" value="Iron">
+                        <label class="form-check-label" for="oc">iron</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="as" name="periods" value="Protohistory">
+                        <label class="form-check-label" for="as">protohistory</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="eu" name="periods" value="Classic">
+                        <label class="form-check-label" for="eu">classic</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="na" name="periods" value="Mediaeval">
+                        <label class="form-check-label" for="na">mediaeval</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="sa" name="periods" value="Contact">
+                        <label class="form-check-label" for="sa">contact</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="oc" name="periods" value="Modern">
+                        <label class="form-check-label" for="oc">modern</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="form-check text-secondary">
+                        <input class="form-check-input" type="radio" id="unspecified" name="periods" value="" checked>
+                        <label class="form-check-label" for="unspecified"></label>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4">
+                <div class="form-group">
+                  <span class="form-text text-secondary">research area</span>
+                  <input type="text" class="form-control" id="rarea" name="rarea" placeholder="(e.g., Valcamonica)">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <span class="form-text text-secondary">research province, state, …</span>
+                  <input type="text" class="form-control" id="rprovince" name="rprovince" placeholder="(e.g., Brescia)">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <span class="form-text text-secondary">research country</span>
+                  <input type="text" class="form-control" id="rcountry" name="rcountry" placeholder="(e.g., IT)">
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4">
+                <div class="form-group">
+                  <span class="form-text text-secondary">address town</span>
+                  <input type="text" class="form-control" id="atown" name="atown" placeholder="(e.g., Capo di Ponte)">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <span class="form-text text-secondary">address province, state, …</span>
+                  <input type="text" class="form-control" id="aprovince" name="aprovince" placeholder="(e.g., Brescia)">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <span class="form-text text-secondary">address country</span>
+                  <input type="text" class="form-control" id="acountry" name="acountry" placeholder="(e.g., IT)">
+                </div>
+              </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+              <div class="col-md-4">
+                <div class="form-group">
+                  <button type="button" class="btn btn-secondary form-control" onclick="processForm(form1,1)">search – pretty output</button>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <button type="button" class="btn btn-secondary form-control" onclick="processForm(form1,0)">search – plain output</button>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <button type="button" class="btn btn-secondary form-control" onclick="clearNodes('results')">clear search results</button>
+                </div>
+              </div>
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+
+      <div class="card mb-4 shadow-sm">
+        <div class="card-body">
+          <h2 class="card-text text-secondary"><small>search results</small></h2>
+          <div id="results">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</main>
+
+<footer class="text-muted  pt-1">
+  <div class="container">
+    <hr class="mb-1">
+    <p class="float-right">
+      <a class="text-muted" href="#">back to top</a>
+    </p>
+    <p><a class="text-muted" href="https://github.com/whoswho-rockart/wwr3">wwr3 GitHub</a></p>
+  </div>
+</footer>
+
+<script src="../assets/js/jquery-3.3.1.slim.min.js"></script>
+<script>window.jQuery || document.write('<script src="../assets/js/jquery-3.3.1.slim.min.js"><\/script>')</script>
+<script src="../assets/js/popper.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
+<script src="../assets/js/holder.min.js"></script>
+<script src="../assets/js/js-yaml-demo.js"></script>
+<script src="main-array.js"></script>
+<script src="language-iso-3166-1.js"></script>
+<script src="continent.js"></script>
+<script src="country-iso-3166-1-alpha-2.js"></script>
+<script src="search.js"></script>
+</body>
+</html>
