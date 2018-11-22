@@ -34,7 +34,7 @@ Please copy and complete wwr3 questionnaire and bibliography templates. Send the
 
 ## wwr3 templates
 
-[`main questionaire`](docs/en/main-array.yaml)  
+[`main questionnaire`](docs/en/main-array.yaml)  
 [`bibliography book`](docs/en/book.yaml)  
 [`bibliography book-section`](docs/en/book-section.yaml)  
 [`bibliography journal article`](docs/en/journal-article.yaml)  
