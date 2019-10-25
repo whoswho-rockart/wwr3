@@ -1,6 +1,9 @@
 /*
- * validated with JSLint edition 2018-10-06 (http://jslint.com/)
- * no errors reported (JSLint options: Assume… a browser)
+ * validated with JSLint edition 2019-09-17 (http://jslint.com/)
+ * options: assume a browser; tolerate whitespace mess;
+ * imported global variables…
+ * wwr continent country_ISO_3166_1_alpha_2 language_ISO_3166_1
+ * no errors reported
  */
 
 /*
@@ -47,17 +50,17 @@ function ifIndex(index, array, str1, str2) {
 
 function processForm(form, card) {
     "use strict";
-    var forenames = form.forenames.value.trim();
-    var surname = form.surname.value.trim();
+    var forenames = form.forenames.value.trim().toLowerCase();
+    var surname = form.surname.value.trim().toLowerCase();
     var interests = form.interests.value;
     var interest = form.interest.value.trim().toLowerCase();
     var continents = form.continents.value;
     var periods = form.periods.value;
-    var rarea = form.rarea.value.trim();
-    var rprovince = form.rprovince.value.trim();
+    var rarea = form.rarea.value.trim().toLowerCase();
+    var rprovince = form.rprovince.value.trim().toLowerCase();
     var rcountry = form.rcountry.value.trim().toUpperCase();
-    var atown = form.atown.value.trim();
-    var aprovince = form.aprovince.value.trim();
+    var atown = form.atown.value.trim().toLowerCase();
+    var aprovince = form.aprovince.value.trim().toLowerCase();
     var acountry = form.acountry.value.trim().toUpperCase();
     var result = wwr.filter(function (value) {
 
@@ -81,18 +84,18 @@ function processForm(form, card) {
             return accumulator + value[2] + " ";
         }, "");
 
-        return value[0].indexOf(forenames) !== -1 &&
-                value[1].indexOf(surname) !== -1 &&
-                value[7].indexOf(interests) !== -1 &&
-                vInterest.indexOf(interest) !== -1 &&
-                value[8].indexOf(continents) !== -1 &&
-                value[10].indexOf(periods) !== -1 &&
-                vRarea.indexOf(rarea) !== -1 &&
-                vRprovince.indexOf(rprovince) !== -1 &&
-                vRcountry.indexOf(rcountry) !== -1 &&
-                value[12][1].indexOf(atown) !== -1 &&
-                value[12][3].indexOf(aprovince) !== -1 &&
-                value[12][4].indexOf(acountry) !== -1;
+        return value[0].toLowerCase().indexOf(forenames) !== -1
+            && value[1].toLowerCase().indexOf(surname) !== -1
+            && value[7].indexOf(interests) !== -1
+            && vInterest.indexOf(interest) !== -1
+            && value[8].indexOf(continents) !== -1
+            && value[10].indexOf(periods) !== -1
+            && vRarea.toLowerCase().indexOf(rarea) !== -1
+            && vRprovince.toLowerCase().indexOf(rprovince) !== -1
+            && vRcountry.indexOf(rcountry) !== -1
+            && value[12][1].toLowerCase().indexOf(atown) !== -1
+            && value[12][3].toLowerCase().indexOf(aprovince) !== -1
+            && value[12][4].indexOf(acountry) !== -1;
     });
 
     // generate wwr entries
