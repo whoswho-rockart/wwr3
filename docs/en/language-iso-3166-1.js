@@ -1,6 +1,14 @@
-var language_ISO_3166_1 = {
-// en.wikipedia.org/wiki/List_of_ISO_639-1_codes
-// "ISO 639-1 code": "ISO language name"
+/* JSLint edition 2020-11-06 (jslint.com)
+ * Assume…
+ *   in development
+ *   a browser
+ * No errors reported
+ * ——
+ * en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+ * "ISO 639-1 code": "ISO language name"
+ */
+
+const language_ISO_3166_1 = {
     "": "",
     "ab": "Abkhazian",
     "aa": "Afar",

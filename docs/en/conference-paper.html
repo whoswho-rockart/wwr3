@@ -20,7 +20,7 @@
 <link rel="shortcut icon" href="../assets/favicons/favicon.ico">
 <link rel="stylesheet" href="../assets/css/codemirror.css">
 <link rel="stylesheet" href="../assets/css/js-yaml-demo.css">
-<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 <link href="../assets/css/album.css" rel="stylesheet">
 <style>.container {max-width: 768px;}</style>
 </head>
@@ -87,22 +87,23 @@
           <div class="card mb-4 shadow-sm">
             <div class="card-body">
               <h2 class="card-text text-secondary"><small>bibliography</small></h2>
-              <p class="card-text text-secondary">Edit the bibliography entry, then copy and send it to <a href="mailto:whoswho.rockart" class="text-secondary">whoswho.rockart (at) gmail.com</a>.</p>
-              <p class="card-text text-secondary">If you would like to edit it offline, install a code editor like Notepad++ (Windows, <a href="https://notepad-plus-plus.org/" class="text-secondary">notepad-plus-plus.org</a>), Xcode (MacOS, <a href="https://developer.apple.com/xcode/" class="text-secondary">developer.apple.com/xcode</a>), Geany (MacOS and Windows, <a href="https://geany.org/Download/Releases" class="text-secondary">geany.org/Download/Releases</a>), Textastic (iOS, MacOS, <a href="https://www.textasticapp.com/" class="text-secondary">www.textasticapp.com</a>), or Quoda (Android, <a href="http://getquoda.com/" class="text-secondary">getquoda.com</a>). Copy the template, open a code editor and save as book.yaml.</p>
+              <p class="card-text text-secondary">Edit the bibliography entry. Copy the text or attach the saved file (conference-paper.yaml) and send it to whoswho.rockart (at) gmail.com.</p>
+              <p class="card-text text-secondary">If you would like to edit it offline, install a code editor like Notepad++ (Windows, <a href="https://notepad-plus-plus.org/" class="text-secondary">notepad-plus-plus.org</a>), Xcode (MacOS, <a href="https://developer.apple.com/xcode/" class="text-secondary">developer.apple.com/xcode</a>), Geany (MacOS and Windows, <a href="https://geany.org/Download/Releases" class="text-secondary">geany.org/Download/Releases</a>), Textastic (iOS, MacOS, <a href="https://www.textasticapp.com/" class="text-secondary">www.textasticapp.com</a>), or Quoda (Android, <a href="http://getquoda.com/" class="text-secondary">getquoda.com</a>). Copy the template, open a code editor and save as conference-paper.yaml.  Attach the file (conference-paper.yaml) and send it to whoswho.rockart (at) gmail.com.</p>
               <p class="card-text text-secondary">You may send other bibliography formats (e.g., BibTeX, Endnote, XML, RIS). For complete list of accepted formats, see <a href="https://www.zotero.org/support/import_formats" class="text-secondary">https://www.zotero.org/support/import_formats</a>.</p>
             </div>
+            <!-- class="card-body" -->
           </div>
+          <!-- class="card mb-4 shadow-sm" -->
         </div>
+        <!-- class="col-md-12" -->
 
         <div class="col-md-12">
           <div class="card mb-4 shadow-sm">
-            <div class="card-body">
-              <h2 class="card-text text-secondary"><small>book</small></h2>
-              <p class="card-text text-secondary">
-                <form name="wwrconference" accept-charset="utf-8" method="get" action="">
-                  <div class="form-group">
-                    <div class="src">
-                      <textarea class="form-control" id="tarea" name="tarea">
+            <form name="wwrconference" accept-charset="utf-8" method="get" action="">
+              <div class="card-body">
+                <h2 class="card-text text-secondary"><small>conference paper</small></h2>
+                <div class="src">
+                  <textarea class="form-control" id="tarea" name="tarea">
 ---
 id: none # do not edit
 
@@ -161,23 +162,35 @@ ISSN: (e.g., 0003-598X, 1745-1744) # (blank if none)
 
 note: … # (blank if none)
 </textarea>
-                    </div>
-                    <!-- /div class="src" -->
+                </div>
+                <!-- class="src" -->
+                <br>
+                <div class="form-row">
+                  <div class="col-6">
+                    <button onclick="saveFile('conference-paper')" type="button" class="btn btn-secondary btn-sm form-control form-control-sm">
+                      save file
+                    </button>
                   </div>
-                </form>
-              </p>
-            </div>
+                </div>
+                <!-- class="form-row" -->
+              </div>
+              <!-- class="card-body" -->
+            </form>
+            <!--  name="wwrconference" -->
           </div>
+          <!-- class="card mb-4 shadow-sm" -->
         </div>
+        <!-- class="col-md-12" -->
 
       </div>
-      <!-- /div class="row" -->
+      <!-- class="row" -->
     </div>
-    <!-- /div class="container" -->
+    <!-- class="container" -->
   </div>
-  <!-- /div class="album pt-3 pb-1 bg-transparent" -->
+  <!-- class="album pt-3 pb-1 bg-transparent" -->
 
 </main>
+<!--  role="main" -->
 
 <footer class="text-muted  pt-1">
   <div class="container">
@@ -189,11 +202,10 @@ note: … # (blank if none)
   </div>
 </footer>
 
-<script src="../assets/js/jquery-3.3.1.slim.min.js"></script>
-<script>window.jQuery || document.write('<script src="../assets/js/jquery-3.3.1.slim.min.js"><\/script>')</script>
-<script src="../assets/js/popper.min.js"></script>
-<script src="../assets/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 <script src="../assets/js/holder.min.js"></script>
 <script src="../assets/js/js-yaml-demo.js"></script>
+<script src="save.js"></script>
 </body>
 </html>

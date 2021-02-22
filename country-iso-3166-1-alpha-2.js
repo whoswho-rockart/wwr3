@@ -1,6 +1,15 @@
-var country_ISO_3166_1_alpha_2 = {
-// en.wikipedia.org/wiki/List_of_ISO_3166_country_codes
-// "ISO 3166-1 alpha-2 code": "country name (English)"
+/* JSLint edition 2020-11-06 (jslint.com)
+ * Assume…
+ *   in development
+ *   a browser
+ * No errors reported
+ * ——
+ * en.wikipedia.org/wiki/List_of_ISO_3166_country_codes
+ * "ISO 3166-1 alpha-2 code": "country name (English)"
+ */
+
+
+const country_ISO_3166_1_alpha_2 = {
     "": "",
     "AD": "Andorra",
     "AE": "United Arab Emirates",

@@ -20,7 +20,7 @@
 <link rel="shortcut icon" href="../assets/favicons/favicon.ico">
 <link rel="stylesheet" href="../assets/css/codemirror.css">
 <link rel="stylesheet" href="../assets/css/js-yaml-demo.css">
-<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 <link href="../assets/css/album.css" rel="stylesheet">
 <style>.container {max-width: 768px;}</style>
 </head>
@@ -71,13 +71,14 @@
       <img class="img-fluid mx-auto d-block" alt="../assets/images/wwr3.jpg" src="../assets/images/wwr3.jpg">
     </div>
     <h1>
-      <small class="jumbotron-heading text-secondary">who’s who in rock-art, third edition</small>
+      <small class="text-secondary">who’s who in rock-art, third edition</small>
     </h1>
     <p class="lead text-secondary">
       the changing world of rock-art studies<br>
       people, what they do and where
     </p>
   </div>
+  <!-- class="container" -->
 
   <div class="album pt-3 pb-1 bg-transparent">
     <div class="container">
@@ -90,21 +91,22 @@
               <!--
               <p class="card-text text-secondary">The template format is YAML (<a href="http://yaml.org/" class="text-secondary">yaml.org</a>). Text following hash symbols (#) are comments. The form uses the JS-YAML parser for colour highlighting (<a href="https://nodeca.github.io/js-yaml/" class="text-secondary">nodeca.github.io/js-yaml</a>).</p>
               -->
-              <p class="card-text text-secondary">Edit the questionnaire, then copy and send it to <a href="mailto:whoswho.rockart" class="text-secondary">whoswho.rockart (at) gmail.com</a>.</p>
-              <p class="card-text text-secondary">If you would like to edit it offline, install a code editor like Notepad++ (Windows, <a href="https://notepad-plus-plus.org/" class="text-secondary">notepad-plus-plus.org</a>), Xcode (MacOS, <a href="https://developer.apple.com/xcode/" class="text-secondary">developer.apple.com/xcode</a>), Geany (MacOS and Windows, <a href="https://geany.org/Download/Releases" class="text-secondary">geany.org/Download/Releases</a>), Textastic (iOS, MacOS, <a href="https://www.textasticapp.com/" class="text-secondary">www.textasticapp.com</a>), or Quoda (Android, <a href="http://getquoda.com/" class="text-secondary">getquoda.com</a>). Copy the template, open a code editor and save as main.yaml.</p>
+              <p class="card-text text-secondary">Edit the questionnaire. Copy the text or attach the saved file (main.yaml) and send it to whoswho.rockart (at) gmail.com.</p>
+              <p class="card-text text-secondary">If you would like to edit it offline, install a code editor like Notepad++ (Windows, <a href="https://notepad-plus-plus.org/" class="text-secondary">notepad-plus-plus.org</a>), Xcode (MacOS, <a href="https://developer.apple.com/xcode/" class="text-secondary">developer.apple.com/xcode</a>), Geany (MacOS and Windows, <a href="https://geany.org/Download/Releases" class="text-secondary">geany.org/Download/Releases</a>), Textastic (iOS, MacOS, <a href="https://www.textasticapp.com/" class="text-secondary">www.textasticapp.com</a>), or Quoda (Android, <a href="http://getquoda.com/" class="text-secondary">getquoda.com</a>). Copy the template, open a code editor and save as main.yaml. Attach the file (main.yaml) and send it to whoswho.rockart (at) gmail.com.</p>
             </div>
+            <!-- class="card-body" -->
           </div>
+          <!-- class="card mb-4 shadow-sm" -->
         </div>
+        <!-- class="col-md-12" -->
 
         <div class="col-md-12">
           <div class="card mb-4 shadow-sm">
-            <div class="card-body">
-              <h2 class="card-text text-secondary"><small>main questionnaire</small></h2>
-              <p class="card-text text-secondary">
-                <form name="wwrmain" accept-charset="utf-8" method="get" action="">
-                  <div class="form-group">
-                    <div class="src">
-                      <textarea class="form-control" id="tarea" name="tarea">
+            <form name="wwrmain" accept-charset="utf-8" method="get" action="">
+              <div class="card-body">
+                <h2 class="card-text text-secondary"><small>main questionnaire</small></h2>
+                <div class="src">
+                  <textarea class="form-control" id="tarea" name="tarea">
 ---
 # 00 forenames
 - (e.g., Mila)
@@ -253,23 +255,35 @@
   # edit or delete lines below; duplicate and edit to add a web page
   - (e.g., www.…) # web page
 </textarea>
-                    </div>
-                    <!-- /div class="src" -->
+                </div>
+                <!-- class="src" -->
+                <br>
+                <div class="form-row">
+                  <div class="col-6">
+                    <button onclick="saveFile('main')" type="button" class="btn btn-secondary btn-sm form-control form-control-sm">
+                      save file
+                    </button>
                   </div>
-                </form>
-              </p>
-            </div>
+                </div>
+                <!-- class="form-row" -->
+              </div>
+              <!-- class="card-body" -->
+            </form>
+            <!--  name="wwrmain" -->
           </div>
+          <!-- class="card mb-4 shadow-sm" -->
         </div>
+        <!-- class="col-md-12" -->
 
       </div>
-      <!-- /div class="row" -->
+      <!-- class="row" -->
     </div>
-    <!-- /div class="container" -->
+    <!-- class="container" -->
   </div>
-  <!-- /div class="album pt-3 pb-1 bg-transparent" -->
+  <!-- class="album pt-3 pb-1 bg-transparent" -->
 
 </main>
+<!--  role="main" -->
 
 <footer class="text-muted  pt-1">
   <div class="container">
@@ -281,11 +295,10 @@
   </div>
 </footer>
 
-<script src="../assets/js/jquery-3.3.1.slim.min.js"></script>
-<script>window.jQuery || document.write('<script src="../assets/js/jquery-3.3.1.slim.min.js"><\/script>')</script>
-<script src="../assets/js/popper.min.js"></script>
-<script src="../assets/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 <script src="../assets/js/holder.min.js"></script>
 <script src="../assets/js/js-yaml-demo.js"></script>
+<script src="save.js"></script>
 </body>
 </html>

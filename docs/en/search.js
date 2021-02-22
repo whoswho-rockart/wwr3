@@ -1,25 +1,29 @@
-/*
- * validated with JSLint edition 2019-09-17 (http://jslint.com/)
- * options: assume a browser; tolerate whitespace mess;
- * imported global variables…
- * wwr continent country_ISO_3166_1_alpha_2 language_ISO_3166_1
- * no errors reported
+/* JSLint edition 2019-09-17 (jslint.com)
+ * Assume…
+ *   in development
+ *   a browser
+ *   tolerate whitespace mess
+ * Global variables…
+ *   wwr continent country_ISO_3166_1_alpha_2 language_ISO_3166_1
+ * No errors reported
+ * ——
+ * Tested as follows:
+ *   Firefox (version 85.0.2)
  */
 
 /*
-/home/t510f/Documents/tec/git/devel/WhosWho-Rockart/wwr3/docs/en/search.html
-/home/t510f/Documents/tec/js/dist/JSLint-master/index.html
-var wwr;
-var language_ISO_3166_1;
-var continent;
-var country_ISO_3166_1_alpha_2;
+~/Documents/tec/repos/github/WhosWho-Rockart/wwr3
+let wwr;
+let language_ISO_3166_1;
+let continent;
+let country_ISO_3166_1_alpha_2;
  */
 
 function h2(parent, text) {
     "use strict";
-    var a = document.getElementById(parent);
-    var b = document.createElement("h2");
-    var c = document.createElement("small");
+    let a = document.getElementById(parent);
+    let b = document.createElement("h2");
+    let c = document.createElement("small");
     b.setAttribute("class", "card-text text-secondary");
     c.appendChild(document.createTextNode(text));
     b.appendChild(c);
@@ -29,7 +33,7 @@ function h2(parent, text) {
 
 function clearNodes(element) {
     "use strict";
-    var a = document.getElementById(element);
+    let a = document.getElementById(element);
     while (a.childNodes[1]) {
         a.removeChild(a.childNodes[1]);
     }
@@ -50,37 +54,37 @@ function ifIndex(index, array, str1, str2) {
 
 function processForm(form, card) {
     "use strict";
-    var forenames = form.forenames.value.trim().toLowerCase();
-    var surname = form.surname.value.trim().toLowerCase();
-    var interests = form.interests.value;
-    var interest = form.interest.value.trim().toLowerCase();
-    var continents = form.continents.value;
-    var periods = form.periods.value;
-    var rarea = form.rarea.value.trim().toLowerCase();
-    var rprovince = form.rprovince.value.trim().toLowerCase();
-    var rcountry = form.rcountry.value.trim().toUpperCase();
-    var atown = form.atown.value.trim().toLowerCase();
-    var aprovince = form.aprovince.value.trim().toLowerCase();
-    var acountry = form.acountry.value.trim().toUpperCase();
-    var result = wwr.filter(function (value) {
+    let forenames = form.forenames.value.trim().toLowerCase();
+    let surname = form.surname.value.trim().toLowerCase();
+    let interests = form.interests.value;
+    let interest = form.interest.value.trim().toLowerCase();
+    let continents = form.continents.value;
+    let periods = form.periods.value;
+    let rarea = form.rarea.value.trim().toLowerCase();
+    let rprovince = form.rprovince.value.trim().toLowerCase();
+    let rcountry = form.rcountry.value.trim().toUpperCase();
+    let atown = form.atown.value.trim().toLowerCase();
+    let aprovince = form.aprovince.value.trim().toLowerCase();
+    let acountry = form.acountry.value.trim().toUpperCase();
+    let result = wwr.filter(function (value) {
 
         // other research interest
-        var vInterest = value[7].reduce(function (accumulator, value) {
+        let vInterest = value[7].reduce(function (accumulator, value) {
             return accumulator + value + " ";
         }, "");
 
         // research area
-        var vRarea = value[11].reduce(function (accumulator, value) {
+        let vRarea = value[11].reduce(function (accumulator, value) {
             return accumulator + value[0] + " ";
         }, "");
 
         // research province, state, …
-        var vRprovince = value[11].reduce(function (accumulator, value) {
+        let vRprovince = value[11].reduce(function (accumulator, value) {
             return accumulator + value[1] + " ";
         }, "");
 
         // research country
-        var vRcountry = value[11].reduce(function (accumulator, value) {
+        let vRcountry = value[11].reduce(function (accumulator, value) {
             return accumulator + value[2] + " ";
         }, "");
 
@@ -100,12 +104,12 @@ function processForm(form, card) {
 
     // generate wwr entries
     result.map(function (value) {
-        var a = document.getElementById("results");
-        var b = document.createElement("div");
-        var c = document.createElement("div");
-        var d = document.createElement("p");
-        var e;
-        var f;
+        let a = document.getElementById("results");
+        let b = document.createElement("div");
+        let c = document.createElement("div");
+        let d = document.createElement("p");
+        let e;
+        let f;
 
         b.setAttribute("class", "card mb-4 shadow-sm");
         c.setAttribute("class", "card-body");

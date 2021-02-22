@@ -1,5 +1,16 @@
+/* JSLint edition 2020-11-06 (jslint.com)
+ * Assume…
+ *   in development
+ *   a browser
+ * No errors reported
+ * ——
+ * ifLanguage(value) tested as follows:
+ *   Firefox (version 85.0.2)
+ * ——
+ * en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+ */
+
 function ifLanguage(value) {
-// en.wikipedia.org/wiki/List_of_ISO_639-1_codes
     "use strict";
     if (value === "ab") {
         return "Abkhazian";

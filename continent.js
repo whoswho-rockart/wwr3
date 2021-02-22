@@ -1,5 +1,13 @@
-var continent = {
-// planetarynames.wr.usgs.gov/Abbreviations
+/* JSLint edition 2020-11-06 (jslint.com)
+ * Assume…
+ *   in development
+ *   a browser
+ * No errors reported
+ * ——
+ * planetarynames.wr.usgs.gov/Abbreviations
+ */
+
+const continent = {
     "": "",
     "AF": "Africa",
     "AN": "Antarctica",
