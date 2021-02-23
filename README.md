@@ -28,7 +28,7 @@ The third edition will be a joint venture of CCSP, Le Orme dell’Uomo and Carab
 
 A review can only take place after collecting information. In 1984, António Guerreiro adopted dBase, a relational database management system. Now, wwr3 uses [`YAML`](http://yaml.org/) to gather and shape data. Humans and computers can read YAML. It is convertible to other formats like [`JSON`](http://json.org/) and [`XML`](https://en.wikipedia.org/wiki/XML). [`SQL`](https://en.wikipedia.org/wiki/SQL) database engines like [`SQLite`](http://yaml.org/) and [`PostgreSQL`](https://www.postgresql.org/) can store and query JSON.
 
-Please copy and complete wwr3 questionnaire and bibliography templates.
+Please copy and complete wwr3 questionnaire and bibliography templates.  
 Send them to [`whoswho.rockart (at) gmail.com`](https://www.google.com/intl/en/gmail/about/).
 
 ## wwr3 templates
