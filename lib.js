@@ -10,17 +10,22 @@
  *   Firefox (version 85.0.2)
  */
 
-function saveFile(name) {
+function saveAsFile(name) {
     "use strict";
-    const yaml = document.getElementById("tarea");
-    let text = yaml.value;
+    const text = document.getElementById("tarea").value;
     const blob = new Blob([text], {type: "text/plain;charset=utf-8"});
     let url = window.URL || window.webkitURL;
-    let link = url.createObjectURL(blob);
     let a = document.createElement("a");
-    const fileName = name + ".yaml";
-    a.download = fileName;
-    a.href = link;
+    a.href = url.createObjectURL(blob);
+    a.download = name;
     document.body.appendChild(a);
     a.click();
+}
+
+function copyElem() {
+    "use strict";
+    const elem = document.getElementById("tarea");
+    elem.select();
+    elem.setSelectionRange(0, 99999); // phone or tablet
+    document.execCommand("copy");
 }
